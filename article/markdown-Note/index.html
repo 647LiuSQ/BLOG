@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          647 | Blog
+          Markdown Note - 647 | Blog
         
     </title>
 
-    <link rel="canonical" href="https://647LiuSQ.github.io/BLOG/tags/Hexo/">
+    <link rel="canonical" href="https://647LiuSQ.github.io/BLOG/article/markdown-Note/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/BLOG/css/bootstrap.min.css">
@@ -71,8 +71,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/archives-widget.jpg')
-            /*page*/
+            background-image: url('post-bg-2015.jpg')
+            /*post*/
         
     }
     
@@ -85,10 +85,18 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-                    <div class="site-heading">
-                        <h1>647&#39;s Blog</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">This is a place to exchange ideals!</span>
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/BLOG/tags/#技术" title="技术">技术</a>
+                            
+                        </div>
+                        <h1>Markdown Note</h1>
+                        <h2 class="subheading"> &quot;Overcoming Catastrophic Forgetting&quot;</h2>
+                        <span class="meta">
+                            Posted by 647 on
+                            2017-06-09
+                        </span>
                     </div>
                 
 
@@ -134,7 +142,7 @@
 
                         
                         <li>
-                            <a href="/BLOG/tags/">Tags</a>
+                            <a href="/BLOG/archive/">Archives</a>
                         </li>
                         
                     
@@ -148,7 +156,7 @@
 
                         
                         <li>
-                            <a href="/BLOG/archive/">Archives</a>
+                            <a href="/BLOG/tags/">Tags</a>
                         </li>
                         
                     
@@ -191,238 +199,241 @@
 
 
     <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        
+    <!-- Modify by Yu-Hsuan Yen -->
 
-<!-- USE SIDEBAR -->
-    <!-- Post Container -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-            
-                
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 归档列表 -->
-            
-            
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-             <!-- 归档列表 -->
+                <blockquote>
+<p>“This is about Markdown. ”</p>
+</blockquote>
+<p>为了更好的博客，这篇博文记录一些常用的<a href="https://github.com/riku/Markdown-Syntax-CN" target="_blank" rel="noopener">markdown语法</a>。</p>
+<p>####兼容HTML<br>
+这是一个普通段落。</p>
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+<p>这是另一个普通段落。</p>
+<p>###区块元素<br>
+####段落和换行<br>
+一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行</p>
+<p>Markdown 来插入 <br> 标签的话</p>
+<p>####标题<br>
+类 atx 形式。</p>
+<p>任何数量的 = 和 - 都可以有效果</p>
+<p>类 Atx 形式则是在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶，例如：</p>
+<h1 id="这是-h1">这是 H1</h1>
+<h6 id="这是-h6">这是 H6</h6>
+<p>你可以选择性地「闭合」类 atx 样式的标题，这纯粹只是美观用的，若是觉得这样看起来比较舒适，你就可以在行尾加上 #，而行尾的 # 数量也不用和开头一样（行首的井字符数量决定标题的阶数）：</p>
+<h3 id="这是-h3">这是 H3</h3>
+<p>####区块引用<br>
+引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：</p>
+<blockquote>
+<h2 id="这是一个标题">这是一个标题。</h2>
+<ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+<p>给出一些例子代码：</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre>
+</blockquote>
+<p>####列表</p>
+<p>Markdown 支持有序列表和无序列表。</p>
+<p>无序列表使用星号、加号或是减号作为列表标记：</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue<br>
+有序列表则使用数字接着一个英文句点：</li>
+</ul>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<ol start="1986">
+<li>What a great season.<br>
+换句话说，也就是在行首出现数字-句点-空白，要避免这样的状况，你可以在句点前面加上反斜杠。</li>
+</ol>
+<p>1986. What a great season.</p>
+<p>####链接</p>
+<p>Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。</p>
+<p>不管是哪一种，链接文字都是用 [方括号] 来标记。</p>
+<p>要建立一个行内式的链接，只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可，例如：</p>
+<p>This is <a href="http://example.com/" title="Title" target="_blank" rel="noopener">an example</a> inline link.</p>
+<p><a href="http://example.net/" target="_blank" rel="noopener">This link</a> has no title attribute.</p>
+<p>下面是一个参考式链接的范例：</p>
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="noopener">Google</a> than from<br>
+<a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="noopener">MSN</a>.</p>
+<p>####图片<br>
+很明显地，要在纯文字应用中设计一个「自然」的语法来插入图片是有一定难度的。</p>
+<p>Markdown 使用一种和链接很相似的语法来标记图片，同样也允许两种样式： 行内式和参考式。</p>
+<p>行内式的图片语法看起来像是：</p>
+<p><img src="post-bg-2015.jpg" alt="Alt text"></p>
+<p><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"><br>
+详细叙述如下：</p>
+<p>一个惊叹号 !<br>
+接着一个方括号，里面放上图片的替代文字<br>
+接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上 选择性的 ‘title’ 文字。<br>
+参考式的图片语法则长得像这样：</p>
+<p><img src="url/to/image" alt="Alt text" title="Optional title attribute"></p>
+<p>「id」是图片参考的名称，图片参考的定义方式则和连结参考一样：</p>
+<p>到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 <img> 标签。</p>
+<p>反斜杠</p>
+<p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <em> 标签），你可以在星号的前面加上反斜杠：</em></p>
+<p>*literal asterisks*<br>
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
 
-            
-            <div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2017">
-                    <span class="tag-text">2017</span>
-                </span>
-                <ul>
                 
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    09-18
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/hexo-theme-huweihuang/" style="color: #0085a1">
-                        <span>
-                            [Hexo] Theme HuWeihuang
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    06-11
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/VAE/" style="color: #0085a1">
-                        <span>
-                            GAN and VAE Object Function
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    06-09
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/markdown-Note/" style="color: #0085a1">
-                        <span>
-                            Markdown Note
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
+
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                        <li class="previous">
+                            <a href="/BLOG/article/VAE/" data-toggle="tooltip" data-placement="top" title="GAN and VAE Object Function">&larr; Previous Post</a>
+                        </li>
+                    
+                    
                 </ul>
-            </div>
-            
-
-
-        </div>
-    </div>
-</div>
 
                 <br>
 
+                <!--打赏-->
+                
+                <!--打赏-->
+
+                <br>
+                <!--分享-->
+                
+                    <div class="social-share"  data-wechat-qrcode-helper="" align="center"></div>
+                    <!--  css & js -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+                
+                <!--分享-->
+                <br>                       
+                
                 <!-- require APlayer -->
                 
 
-                <!-- 如果开启评论功能 -->
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                <!-- disqus comment end -->
+
+                
+
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/BLOG/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/BLOG/tags/#技术" title="技术">技术</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="http://yangze.tech" target="_blank">杨泽</a></li>
+                    
+                        <li><a href="https://michaelglhx.github.io/BridgeBlog" target="_blank">郭力豪</a></li>
+                    
+                        <li><a href="http://yxgao.xyz" target="_blank">高宇翔</a></li>
+                    
+                        <li><a href="http://nerddan.github.io/" target="_blank">nerddan</a></li>
+                    
+                        <li><a href="https://ghouzenyan.xyz/" target="_blank">何程扬</a></li>
+                    
+                        <li><a href="https://oerrol.github.io/" target="_blank">宋豪</a></li>
+                    
+                </ul>
                 
             </div>
-
-          <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Featured Tags -->
-
-<section>
-    <!-- no hr -->
-    <h5><a href="/BLOG/tags/">FEATURED TAGS</a></h5>
-    <div class="tags">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+        </div>
     </div>
-</section>
+</article>
 
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/BLOG/about/">ABOUT ME</a></h5>
-    <div class="short-about">
 
-        
-            <img id = "avatar_pic" src="/img/avatar.jpg" />
-        
 
-        
-            <p>To make a better world.</p>
-        
 
-        <!-- SNS Link -->
-        <ul class="list-inline">
-            
-            
-            
 
-            
 
-            
 
-            
-                <li>
-                    <a target="_blank"  href="https://github.com/647LiuSQ">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-            
-            
-            
-        </ul>
-    </div>
-</section>
 
-        <hr>
-    
-        
-  <h5>RECENT POSTS</h3>
-  <div class="widget">
-    <ul>
-      
-        <li>
-          <a href="/BLOG/article/hexo-theme-huweihuang/">[Hexo] Theme HuWeihuang</a>
-        </li>
-      
-        <li>
-          <a href="/BLOG/article/VAE/">GAN and VAE Object Function</a>
-        </li>
-      
-        <li>
-          <a href="/BLOG/article/markdown-Note/">Markdown Note</a>
-        </li>
-      
-    </ul>
-  </div>
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-
-    
-        <li><a href="http://yangze.tech" target="_blank">杨泽</a></li>
-    
-        <li><a href="https://michaelglhx.github.io/BridgeBlog" target="_blank">郭力豪</a></li>
-    
-        <li><a href="http://yxgao.xyz" target="_blank">高宇翔</a></li>
-    
-        <li><a href="http://nerddan.github.io/" target="_blank">nerddan</a></li>
-    
-        <li><a href="https://ghouzenyan.xyz/" target="_blank">何程扬</a></li>
-    
-        <li><a href="https://oerrol.github.io/" target="_blank">宋豪</a></li>
-    
-</ul>
-
-        <hr>
-    
-        
-    <h5>ARCHIVES</h5>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2017/06/">June 2017</a><span class="archive-list-count">2</span></li></ul>
-    </div>
-
-        <hr>
-    
-</div>
-
-        
-    </div>
-</div>
 
 
     <!-- Footer -->

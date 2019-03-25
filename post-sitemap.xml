@@ -7,8 +7,16 @@
     </url>
 
     <url>
-        <loc>https://647LiuSQ.github.io/article/hexo-theme-huweihuang/</loc>
-        <lastmod>2019-01-19T20:55:04.000Z</lastmod>
+        <loc>https://647LiuSQ.github.io/article/VAE/</loc>
+        <lastmod>2017-08-13T12:16:51.855Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://647LiuSQ.github.io/article/markdown-Note/</loc>
+        <lastmod>2017-06-10T10:33:04.380Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -14,7 +14,7 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          About - 胡伟煌 | Blog
+          About - 647 | Blog
         
     </title>
 
@@ -71,7 +71,7 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/about.jpg')
+            background-image: url('img/about-bg.jpg')
             /*page*/
         
     }
@@ -88,7 +88,7 @@
                     <div class="site-heading">
                         <h1>About</h1>
                         <!--<hr class="small">-->
-                        <span class="subheading">走在成为极客的路上</span>
+                        <span class="subheading">Hey, this is 647.</span>
                     </div>
                 
 
@@ -206,64 +206,107 @@
                 post-container
             ">
             
-                <h3 id="一句话">一句话</h3>
+                <!-- Language Selector -->
+<select class="sel-lang" onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+    // init
+    _render();
+</script>
 <blockquote>
-<p>Just do it !    (翻译：我只是个搞 IT的！哭笑脸)</p>
+<p>更好的存在</p>
 </blockquote>
-<h3 id="关于我">关于我</h3>
-<blockquote>
-<p>一个莫名其妙的，喜欢敲代码，喜欢研究技术的，表面上高冷、不苟言笑的，</p>
-<p>偶尔又嬉皮笑脸，偶尔又特立独行的，双重性格的技术爱好者！</p>
-</blockquote>
-<h3 id="兴趣方向">兴趣方向</h3>
-<blockquote>
-<p>容器云（Docker、Kubernetes等）相关生态技术研究。</p>
-</blockquote>
-<h3 id="参与社区">参与社区</h3>
-<blockquote>
-<p>CSDN博客:<a href="http://blog.csdn.net/huwh_" target="_blank" rel="noopener">http://blog.csdn.net/huwh_</a></p>
-<p>Github:<a href="https://github.com/huweihuang" target="_blank" rel="noopener">https://github.com/huweihuang</a></p>
-<p>阿里云栖社区:<a href="https://yq.aliyun.com/u/huweihuang" target="_blank" rel="noopener">https://yq.aliyun.com/u/huweihuang</a></p>
-<p>DockOne社区:<a href="http://dockone.io/people/%E8%83%A1%E4%BC%9F%E7%85%8C" target="_blank" rel="noopener">http://dockone.io/people/胡伟煌</a></p>
-</blockquote>
-<h3 id="联系我">联系我</h3>
-<blockquote>
-<p>Email: <a href="mailto:huweihuang@foxmail.com" target="_blank" rel="noopener">huweihuang@foxmail.com</a></p>
-</blockquote>
+<h1 id="个人介绍">个人介绍</h1>
+<p>大家好，我是刘仕琪，简称647，目前是西安交通大学的一名学生，我正在学习人工智能、机器学习的算法和理论。我同时对脑神经科学、哲学、数学、国际政治、社会学感兴趣。<br><br>我也喜欢羽毛球运动，喜欢steam上的文明系列游戏，和democracy系列游戏。</p>
+<p><br><br></p>
+<p>希望我们有些共同的爱好。</p>
+<p><br><br></p>
+<h2 id="最近的研究兴趣">最近的研究兴趣</h2>
+<p>我最近对脑电情绪识别极为感兴趣，已经在申请软件方面的一个专利，对其商业化前景十分看好，希望同样感兴趣的好友们一起合作干出一番事业来。</p>
+<p>我最近对生成模型感兴趣，这其中包括<strong>变分编码器(VAE)<strong>和</strong>生成对抗网络(GAN)</strong>，特别是这些模型它们在<strong>因子分解/解耦的表示学习</strong>，<strong>联合跨模态学习</strong>，<strong>因果建模</strong>和<strong>小样本学习</strong>的显示/隐式对的应用。</p>
+<p>**我正寻求一些合作研究机会。**如果你对于生成模型的应用，你可以与我联系。</p>
+<p><br><br></p>
+<h2 id="推荐书籍">推荐书籍</h2>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/people/cmbishop/" target="_blank" rel="noopener">PRML</a> · by Christopher Bishop</li>
+<li><a href="http://www.cs.nyu.edu/~mohri/mlbook/" target="_blank" rel="noopener">Foundations of Machine Learning</a> · by Mehryar Mohri</li>
+<li><a href="http://www.deeplearningbook.org/" target="_blank" rel="noopener">Deep Learning</a> · by Yoshua Bengio</li>
+<li><a href="http://coltech.vnu.edu.vn/~thainp/books/Wiley_-_2006_-_Elements_of_Information_Theory_2nd_Ed.pdf" target="_blank" rel="noopener">Elements of Information Theory, 2nd Edition</a> · Thomas M. Cover</li>
+</ul>
+<p><br><br></p>
+<h1 id="过去的研究方向">过去的研究方向</h1>
+<h2 id="自步学习">自步学习</h2>
+<p>我过去研究过自步学习<a href="http://gr.xjtu.edu.cn/web/dymeng/6" target="_blank" rel="noopener">解释</a>的理论内涵。更具体的，我过去研究了自步学习格式的优化角度与自步学习概率角度的理解。 I.I.D.小组的伙伴们和我增长了一些关于&quot;<strong>自步学习在优化什么？</strong>&quot;以及&quot;<strong>自步学习的模型是怎么学习数据分布</strong>&quot;的深入的理解。</p>
+<p>我们发现自步学习的目标函数紧密地与引入一个隐变量<strong>v</strong>,难易权重变量,的&quot;估计变分&quot;过程。同时<strong>v</strong>在不同的自步学习应用中有不同物理意义。我们发现自步学习在不同的应用中的成功得益于不同由具有具体应用关联的物理意义的<strong>v</strong>所嵌入的先验知识。</p>
+<p><strong>对于自步学习研究的研究者真诚的建议</strong>：请探索<strong>v</strong>在你的应用中的<strong>物理意义</strong>并且然后去利用一些合适/新奇的方法来尝试嵌入更多/<strong>更通用</strong>的先验。 自步学习方法论从稳健学习角度来看其在各种弱、含噪的学习场景（追踪，弱目标检测，目标定位，学习网页标记数据等等）当中依然是十分有前景的。然而自步学习不应该局限于现有的重加权的框架，相比之下估计推断的框架可能会更加有前景。</p>
+<p>**我正寻求一些合作研究机会。**如果你对于自步学习感兴趣并在做弱目标检测，网页标记数据学习，从带有噪音的数据中学习，你可以与我联系。</p>
+<h2 id="深度lstm模型在日径流预测中的应用">深度LSTM模型在日径流预测中的应用</h2>
+<p>在气象预测领域，日径流受到多种影响因子的影响，并且可以被视作一个高度非线性的动力系统。这其中传统的神经网络模型在日径流数据预测中受制于两大问题。一个是传统的机器学习方法受困于浅层模型较低的容量，这使得模型不能够完美的捕捉到非常复杂的动力系统结构。另一个是日径流数据存在非常长的时序依赖关系，但是定长输入的前向网络的结构假设了模型一个指定长度的条件独立性，这使得模型没有办法捕捉到时序上较长的依赖关系。</p>
+<p>深度LSTM模型则瞄准了这两个问题。深度结构使得模型能够学习层级关系的序列数据的抽象概念，得益于这些层级的抽象所带来的强大表达能力，这使得模型可能看可以更好的捕捉复杂的非线动力系统形态。同时循环的结构特别包括长的短时记忆结构使得模型能够处理和任意长的序列并去捕捉序列中较长的时序依赖关系。</p>
+<p>**我正寻求一些合作研究机会。**如果你对于深度循环网络的结构感兴趣并且从事于相关序列数据的应用，你可以与我联系。</p>
+<p><br><br><br>
+对于社群的贡献<br>
+=======<br>
+<br><br></p>
+<h2 id="发表了的论文-including-preprint">发表了的论文 (including preprint)</h2>
+<ul>
+<li>Ma, Zilu, Shiqi Liu, and Deyu Meng. <a href="https://arxiv.org/abs/1703.09923" target="_blank" rel="noopener">“On Convergence Property of Implicit Self-paced Objective.”</a> arXiv preprint arXiv:1703.09923 (2017).<br>
+<br><br></li>
+</ul>
+<h2 id="未发表的论文">未发表的论文</h2>
+<ul>
+<li>刘仕琪，刘少华. “基于深度学习的LSTM-RNN日径流时间序列预报”.</li>
+</ul>
+<p><br><br></p>
+<h2 id="展示和ppt">展示和PPT</h2>
+<!---
+<center>
+![Alt text](alipay.png)
+欢迎赞助 647，为共同的理想而奋斗！
+</center>
+<br/>
+-->
 
 
                 <br>
 
                 <!-- require APlayer -->
                 
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
-                    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
-                
-                    <div class="aplayer"
-                        data-id="2423410161"
-                        data-server="netease"
-                        data-type="playlist"
-                        data-fixed="false" >
-                    </div>
-                
 
                 <!-- 如果开启评论功能 -->
-                
-                    <hr>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-
                 
             </div>
 
@@ -285,6 +328,14 @@
         
             
         
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
 </section>
 
@@ -296,11 +347,11 @@
     <div class="short-about">
 
         
-            <img id = "avatar_pic" src="/img/avatar/ironman.png" />
+            <img id = "avatar_pic" src="G:/myblog/source/img/avatar.jpg" />
         
 
         
-            <p>Stay hungry,Stay foolish</p>
+            <p>To make a better world.</p>
         
 
         <!-- SNS Link -->
@@ -315,7 +366,7 @@
 
             
                 <li>
-                    <a target="_blank"  href="https://github.com/huweihuang">
+                    <a target="_blank"  href="https://github.com/647LiuSQ">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -338,7 +389,11 @@
     <ul>
       
         <li>
-          <a href="/BLOG/article/hexo-theme-huweihuang/">[Hexo] Theme HuWeihuang</a>
+          <a href="/BLOG/article/VAE/">GAN and VAE Object Function</a>
+        </li>
+      
+        <li>
+          <a href="/BLOG/article/markdown-Note/">Markdown Note</a>
         </li>
       
     </ul>
@@ -352,11 +407,17 @@
 <ul class="list-inline">
 
     
-        <li><a href="http://blog.csdn.net/huwh_" target="_blank">CSDN Blog 胡伟煌</a></li>
+        <li><a href="http://yangze.tech" target="_blank">杨泽</a></li>
     
-        <li><a href="http://dockone.io/people/胡伟煌" target="_blank">DockOne 胡伟煌</a></li>
+        <li><a href="https://michaelglhx.github.io/BridgeBlog" target="_blank">郭力豪</a></li>
     
-        <li><a href="https://yq.aliyun.com/u/huweihuang" target="_blank">阿里云栖社区 胡伟煌</a></li>
+        <li><a href="http://yxgao.xyz" target="_blank">高宇翔</a></li>
+    
+        <li><a href="http://nerddan.github.io/" target="_blank">nerddan</a></li>
+    
+        <li><a href="https://ghouzenyan.xyz/" target="_blank">何程扬</a></li>
+    
+        <li><a href="https://oerrol.github.io/" target="_blank">宋豪</a></li>
     
 </ul>
 
@@ -365,7 +426,7 @@
         
     <h5>ARCHIVES</h5>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2017/06/">June 2017</a><span class="archive-list-count">2</span></li></ul>
     </div>
 
         <hr>
@@ -394,7 +455,7 @@
 
                 
                     <li>
-                        <a target="_blank"  href="https://github.com/huweihuang">
+                        <a target="_blank"  href="https://github.com/647LiuSQ">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
