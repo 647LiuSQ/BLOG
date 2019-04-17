@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          647 | Blog
+          Camera-Radar Calibration - 647 | Blog
         
     </title>
 
-    <link rel="canonical" href="https://647LiuSQ.github.io/BLOG/archives/2017/">
+    <link rel="canonical" href="https://647LiuSQ.github.io/BLOG/article/cameraLidarCalibration/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/BLOG/css/bootstrap.min.css">
@@ -71,8 +71,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/source/img/header_img/archives-widget.jpg')
-            /*page*/
+            background-image: url('post-bg-2015.jpg')
+            /*post*/
         
     }
     
@@ -85,10 +85,20 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-                    <div class="site-heading">
-                        <h1>647&#39;s Blog</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">This is a place to exchange ideals!</span>
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/BLOG/tags/#技术" title="技术">技术</a>
+                            
+                              <a class="tag" href="/BLOG/tags/#计算机视觉" title="计算机视觉">计算机视觉</a>
+                            
+                        </div>
+                        <h1>Camera-Radar Calibration</h1>
+                        <h2 class="subheading"> &quot;Overcoming Catastrophic Forgetting&quot;</h2>
+                        <span class="meta">
+                            Posted by 647 on
+                            2019-04-12
+                        </span>
                     </div>
                 
 
@@ -191,243 +201,187 @@
 
 
     <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        
+    <!-- Modify by Yu-Hsuan Yen -->
 
-<!-- USE SIDEBAR -->
-    <!-- Post Container -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-            
-                
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 归档列表 -->
-            
-            
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-             <!-- 归档列表 -->
+                <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<blockquote>
+<p>“These are tidbits of my internship in Hesaitech. ”</p>
+</blockquote>
+<p>相机和激光雷达的对准对于计算机视觉的应用有着重要的意义。我们需要在已知相机内参的情况下求得雷达到相机的外部参数（即雷达坐标系怎么通过刚体变换到相机坐标系），包含旋转矩阵R和平移t。</p>
+<p>雷达坐标系下点云与像素平面上的点的对应关系如下：<br>
+假设雷达坐标系为世界坐标系。其中一点为$$(X_w,Y_w,Z_w)^T.$$经过R,t变换到相机坐标系，即$$(X_c,Y_c,Z_c)^T=R(X_w,Y_w,Z_w)^T+t^T$$<br>
+投影到Z=1的成像平面上的坐标<br>
+$$(X_1,Y_1)^T=(X_c/Z_c,Y_c/Z_c)^T$$<br>
+经过畸变变换得到新的坐标<br>
+$$(X_D,Y_D)^T=\phi_D(X_1,Y_1)^T$$<br>
+经过内参矩阵K得到最后像素平面的坐标<br>
+$$(X_p,Y_p)^T=K(X_D,Y_D)^T.$$<br>
+我们简单即上述整个映射函数为<br>
+$$(X_p,Y_p)^T=f(X_c,Y_c,Z_c)$$</p>
+<p>在未查重的情形下，为了求得外参R和t，我们采用了一种独创的标定方法。我们利用3维线到2维线的映照关系来实施：具体来说即2维中对应的像素点在从3维投影到2维的直线上这一关系。（3维线投影到2维后依然是线。我们利用3维中的两个面的交来确定3维中的线。而三维中的面参数由其上点云中的若干个点来求得。我们则使用像素空间上的若干个像素点来表示2维中的线。）我们希望2维中对应的像素点在到3维投影到2维的直线的距离尽量小，所以计算由像素点到投影到像素平面的3维线的距离构成我们的优化函数。在给定初始值的情况下，最小化一系列有对应关系的线对得到的目标函数，得到优化的外参。<br>
+设$$(X_c^{1},Y_c^{1},Z_c^{1})^T,(X_c^{2},Y_c^{2},Z_c^{2})^T$$为3维线上两点，那么3维线在2维中投影的线可以用其上投影过来的两个点来表示（默认畸变影响不大不会使线变成弯曲的。）$$(X_p^{1},Y_p^{1})^T=f(X_c^{1},Y_c^{1},Z_c^{1}),(X_p^{2},Y_p^{2})^T=f(X_c^{2},Y_c^{2},Z_c^{2}).$$<br>
+进而我们可以求得直线方程$$Ax+By+C=0.$$对于我们已知的若干个在直线上的像素点$$(X_p^a,Y_p^a)^T,(X_p^b,Y_p^b)^T,\cdots$$,其到直线距离为<br>
+$$d^a=\vert\frac{AX_p^a+BY_p^a+C}{\sqrt{A^2+B^2}} \vert,\cdots,$$<br>
+由此构建一条线的目标函数:<br>
+$$L_{line1}=d^a+d^b+\cdots,$$<br>
+所有线的目标函数便成为<br>
+$$totalLoss=L_{line1}+L_{line2}+\cdots.$$</p>
+<p>注意到整个过程当中由于投影到Z=1平面是非线性的运算，这使得整个损失关于R与t非线性且十分复杂，不能够直接解析求解。我们采用python当中的scipy的optimize中的全局优化函数basinhopping对于目标函数关于R,t进行优化。</p>
+<p>由于bashihoping是全局优化函数其受到搜索的初值很大的影响。并且R不太适合直接进行优化，因为其自由度低于其变量数。于是我们采用欧拉角RPY来描述R矩阵（欧拉角到R矩阵的空间是一个满射，<a href="https://blog.csdn.net/lql0716/article/details/72597719" target="_blank" rel="noopener">RPY、四元数、旋转矩阵之间的变换</a>）。通过对于RPY可行域进行枚举采点作为bashihoping函数䣌初值进而优化。我们将每个维度分别尝试0和180°作为初值共8种情况，经验上4种初值下都可以得到好的结果。</p>
+<p>我们也尝试过采用点与点对应关系来求解外参的方法，但是我们发现本身点与点较为难以确定对应关系，同时经过验证其求解效果很差最终我们放弃了这个方法。</p>
 
-            
-            <div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2019">
-                    <span class="tag-text">2019</span>
-                </span>
-                <ul>
                 
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    04-12
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/cameraLidarCalibration/" style="color: #0085a1">
-                        <span>
-                            Camera-Radar Calibration
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
+
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                    
+                        <li class="next">
+                            <a href="/BLOG/article/VAE/" data-toggle="tooltip" data-placement="top" title="GAN and VAE Object Function">Next Post &rarr;</a>
+                        </li>
+                    
                 </ul>
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2017">
-                    <span class="tag-text">2017</span>
-                </span>
-                <ul>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    06-11
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/VAE/" style="color: #0085a1">
-                        <span>
-                            GAN and VAE Object Function
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <li >
-                    06-09
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="/BLOG/article/markdown-Note/" style="color: #0085a1">
-                        <span>
-                            Markdown Note
-                        </span>
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </li>
-                
-                </ul>
-            </div>
-            
-
-
-        </div>
-    </div>
-</div>
 
                 <br>
 
+                <!--打赏-->
+                
+                <!--打赏-->
+
+                <br>
+                <!--分享-->
+                
+                    <div class="social-share"  data-wechat-qrcode-helper="" align="center"></div>
+                    <!--  css & js -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+                
+                <!--分享-->
+                <br>                       
+                
                 <!-- require APlayer -->
                 
 
-                <!-- 如果开启评论功能 -->
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                <!-- disqus comment end -->
+
+                
+
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/BLOG/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/BLOG/tags/#技术" title="技术">技术</a>
+                        
+                          <a class="tag" href="/BLOG/tags/#计算机视觉" title="计算机视觉">计算机视觉</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="http://yangze.tech" target="_blank">杨泽</a></li>
+                    
+                        <li><a href="https://michaelglhx.github.io/BridgeBlog" target="_blank">郭力豪</a></li>
+                    
+                        <li><a href="http://yxgao.xyz" target="_blank">高宇翔</a></li>
+                    
+                        <li><a href="http://nerddan.github.io/" target="_blank">nerddan</a></li>
+                    
+                        <li><a href="https://ghouzenyan.xyz/" target="_blank">何程扬</a></li>
+                    
+                        <li><a href="https://oerrol.github.io/" target="_blank">宋豪</a></li>
+                    
+                </ul>
                 
             </div>
-
-          <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Featured Tags -->
-
-<section>
-    <!-- no hr -->
-    <h5><a href="/BLOG/tags/">FEATURED TAGS</a></h5>
-    <div class="tags">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-            <a href="/BLOG/tags/#技术" title="技术" rel="2">技术</a>
-            
-        
-            
-        
+        </div>
     </div>
-</section>
+</article>
 
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/BLOG/about/">ABOUT ME</a></h5>
-    <div class="short-about">
 
-        
 
-        
-            <p>To make a better world.</p>
-        
 
-        <!-- SNS Link -->
-        <ul class="list-inline">
-            
-            
-            
 
-            
 
-            
 
-            
-                <li>
-                    <a target="_blank"  href="https://github.com/647LiuSQ">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-            
-            
-            
-            
-        </ul>
-    </div>
-</section>
 
-        <hr>
-    
-        
-  <h5>RECENT POSTS</h3>
-  <div class="widget">
-    <ul>
-      
-        <li>
-          <a href="/BLOG/article/cameraLidarCalibration/">Camera-Radar Calibration</a>
-        </li>
-      
-        <li>
-          <a href="/BLOG/article/VAE/">GAN and VAE Object Function</a>
-        </li>
-      
-        <li>
-          <a href="/BLOG/article/markdown-Note/">Markdown Note</a>
-        </li>
-      
-    </ul>
-  </div>
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: 'ℬ'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-
-    
-        <li><a href="http://yangze.tech" target="_blank">杨泽</a></li>
-    
-        <li><a href="https://michaelglhx.github.io/BridgeBlog" target="_blank">郭力豪</a></li>
-    
-        <li><a href="http://yxgao.xyz" target="_blank">高宇翔</a></li>
-    
-        <li><a href="http://nerddan.github.io/" target="_blank">nerddan</a></li>
-    
-        <li><a href="https://ghouzenyan.xyz/" target="_blank">何程扬</a></li>
-    
-        <li><a href="https://oerrol.github.io/" target="_blank">宋豪</a></li>
-    
-</ul>
-
-        <hr>
-    
-        
-    <h5>ARCHIVES</h5>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2019/04/">April 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/BLOG/archives/2017/06/">June 2017</a><span class="archive-list-count">2</span></li></ul>
-    </div>
-
-        <hr>
-    
-</div>
-
-        
-    </div>
-</div>
 
 
     <!-- Footer -->
