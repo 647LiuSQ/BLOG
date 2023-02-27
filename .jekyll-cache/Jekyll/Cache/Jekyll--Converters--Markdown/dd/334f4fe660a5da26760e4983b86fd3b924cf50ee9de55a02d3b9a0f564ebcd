@@ -1,8 +1,0 @@
-I"/<p>I have studied the theoretical implications of self-paced learning explanations in the past. More specifically, I have studied the optimization perspective of self-paced learning format and the understanding of self-paced learning probability perspective in the past. My team members and I developed a solid understanding of "what self-paced learning is optimizing?" and "how self-paced learning models learn the data distribution".</p>
-
-<p>We find that the objective function of self-paced learning is closely related to the "approximate inference" process that introduces a latent variable v, the difficulty weight variable. At the same time, v has different physical meanings in different self-paced learning applications. We find that the success of self-paced learning in different applications benefits from different prior knowledge embedded by v with specific application-related physical meanings.</p>
-
-<p>Sincere advice to researchers working on self-paced learning: please explore the physical meaning of v in your application and then try to embed more/more general priors using some suitable/novel methods. From the perspective of robust learning, self-paced learning methodologies are still very promising in various weak and noisy learning scenarios (tracking, weak object detection, object localization, learning webpage tagged data, etc.). However, self-paced learning should not be limited to existing reweighting frameworks, whereas estimation-inference frameworks may be more promising. Some emerging meta-weighted networks may also be a good direction.
-</p>
-
-:ET
