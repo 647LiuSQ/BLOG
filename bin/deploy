@@ -103,7 +103,7 @@ rm -R _site/
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 [[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
-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
+
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
 
