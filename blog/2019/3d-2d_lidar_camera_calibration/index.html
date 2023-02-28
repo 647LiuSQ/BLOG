@@ -35,8 +35,8 @@
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍀</text></svg>">
 
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/2019/3d-2d_lidar_camera_calibration/">
+<link rel="stylesheet" href="/BLOG/assets/css/main.css">
+<link rel="canonical" href="/BLOG/blog/2019/3d-2d_lidar_camera_calibration/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -45,8 +45,8 @@
 
 <!-- Theming-->
 
-<script src="/assets/js/theme.js"></script>
-<script src="/assets/js/dark_mode.js"></script>
+<script src="/BLOG/assets/js/theme.js"></script>
+<script src="/BLOG/assets/js/dark_mode.js"></script>
 
 
 
@@ -66,9 +66,9 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
-    <script src="/assets/js/distillpub/template.v2.js"></script>
-    <script src="/assets/js/distillpub/transforms.v2.js"></script>
-    <script src="/assets/js/distillpub/overrides.js"></script>
+    <script src="/BLOG/assets/js/distillpub/template.v2.js"></script>
+    <script src="/BLOG/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/BLOG/assets/js/distillpub/overrides.js"></script>
     
   </head>
 
@@ -118,7 +118,7 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="http://localhost:4000/">
+      <a class="navbar-brand title font-weight-lighter" href="http://localhost:4000/BLOG/">
           <!--       Shiqi Liu -->
       </a>
       
@@ -133,7 +133,7 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item ">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="/BLOG/">
               Home
               
             </a>
@@ -141,7 +141,7 @@
           
           <!-- Blog -->
           <li class="nav-item active">
-            <a class="nav-link" href="/blog/">
+            <a class="nav-link" href="/BLOG/blog/">
               Blog
               
             </a>
@@ -167,7 +167,7 @@
           
           
           <li class="nav-item ">
-              <a class="nav-link" href="/others/">
+              <a class="nav-link" href="/BLOG/others/">
                 Miscellaneous
                 
               </a>
@@ -205,14 +205,14 @@
       <d-article>
         <p>Alignment of camera and lidar has important implications for computer vision applications. We need to obtain the external parameters from the radar to the camera (that is, how the radar coordinate system is transformed to the camera coordinate system through a rigid body) when the internal parameters of the camera are known, including the rotation matrix R and translation t.</p>
 <p>The correspondence between the point cloud in the radar coordinate system and the points on the pixel plane is as follows:</p>
-<p><img src="/assets/img/Camera lidar calibration1.png" alt="avatar" /></p>
+<p><img src="../../../assets/img/Camera lidar calibration1.png" width="600" alt="avatar" /></p>
 <p>Assume that the radar coordinate system is the world coordinate system. one point is<br />
 $$ (x_w,y_w,z_w)^T. $$<br />
 Transformed to the camera coordinate system after R, t, that is<br />
 $$ (x_c,y_c,z_c)^T=R(x_w,y_w,z_w)^T+t^T $$<br />
 Coordinates projected onto the imaging plane with Z=1<br />
 $$ p=(x_1,y_1)^T=(x_c/z_c,y_c/z_c)^T $$<br />
-<img src="/assets/img/Camera lidar calibration2.png" alt="avatar" /></p>
+<img src="../../../assets/img/Camera lidar calibration2.png" width="600" alt="avatar" /></p>
 <p>Get new coordinates after distortion transformation<br />
 $$ (x_D,y_D)^T=\phi_D(x_1,y_1)^T $$<br />
 Get the coordinates of the last pixel plane through the internal reference matrix K<br />
@@ -224,7 +224,7 @@ $$ (x_p,y_p)^T=f(x_w,y_w,z_w) $$</p>
 $$ (x_w^{1},y_w^{1},z_w^{1})^T,(x_w^{2},y_w^{2},z_w^{2})^T $$<br />
 is two points on the 3D line, then the line projected by the 3D line in 2D can be represented by the two points projected on it (the default distortion has little effect and will not make the line curved.)<br />
 $$ (x_p^{1},y_p^{1})^T=f(x_w^{1},y_w^{1},z_w^{1}),(x_p^{2},y_p^{2})^T=f(x_w^{2},y_w^{2},z_w^{2}). $$<br />
-<img src="/assets/img/Camera lidar calibration3.png" alt="avatar" /></p>
+<img src="../../../assets/img/Camera lidar calibration3.png" width="600" alt="avatar" /></p>
 <p>Then we can find the equation of the straight line<br />
 $$ Ax+By+C=0. $$<br />
 For several known pixel points on a straight line<br />
@@ -266,7 +266,7 @@ $$ totalLoss=L_{line1}+L_{line2}+\cdots. $$</p>
 
   </body>
 
-  <d-bibliography src="/assets/bibliography/">
+  <d-bibliography src="/BLOG/assets/bibliography/">
   </d-bibliography>
 
 </html>
