@@ -8,14 +8,14 @@ authors:
 ---
 <p>Alignment of camera and lidar has important implications for computer vision applications. We need to obtain the external parameters from the radar to the camera (that is, how the radar coordinate system is transformed to the camera coordinate system through a rigid body) when the internal parameters of the camera are known, including the rotation matrix R and translation t.</p>
 <p>The correspondence between the point cloud in the radar coordinate system and the points on the pixel plane is as follows:</p>
-<p><img src="/assets/img/Camera lidar calibration1.png" alt="avatar"></p>
+<p><img src="../../../assets/img/Camera lidar calibration1.png" width=600 alt="avatar"></p>
 <p>Assume that the radar coordinate system is the world coordinate system. one point is<br>
 $$ (x_w,y_w,z_w)^T. $$<br>
 Transformed to the camera coordinate system after R, t, that is<br>
 $$ (x_c,y_c,z_c)^T=R(x_w,y_w,z_w)^T+t^T $$<br>
 Coordinates projected onto the imaging plane with Z=1<br>
 $$ p=(x_1,y_1)^T=(x_c/z_c,y_c/z_c)^T $$<br>
-<img src="/assets/img/Camera lidar calibration2.png" alt="avatar"></p>
+<img src="../../../assets/img/Camera lidar calibration2.png" width=600 alt="avatar"></p>
 <p>Get new coordinates after distortion transformation<br>
 $$ (x_D,y_D)^T=\phi_D(x_1,y_1)^T $$<br>
 Get the coordinates of the last pixel plane through the internal reference matrix K<br>
@@ -27,7 +27,7 @@ $$ (x_p,y_p)^T=f(x_w,y_w,z_w) $$</p>
 $$ (x_w^{1},y_w^{1},z_w^{1})^T,(x_w^{2},y_w^{2},z_w^{2})^T $$<br>
 is two points on the 3D line, then the line projected by the 3D line in 2D can be represented by the two points projected on it (the default distortion has little effect and will not make the line curved.)<br>
 $$ (x_p^{1},y_p^{1})^T=f(x_w^{1},y_w^{1},z_w^{1}),(x_p^{2},y_p^{2})^T=f(x_w^{2},y_w^{2},z_w^{2}). $$<br>
-<img src="/assets/img/Camera lidar calibration3.png" alt="avatar"></p>
+<img src="../../../assets/img/Camera lidar calibration3.png" width=600 alt="avatar"></p>
 <p>Then we can find the equation of the straight line<br>
 $$ Ax+By+C=0. $$<br>
 For several known pixel points on a straight line<br>

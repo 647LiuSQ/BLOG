@@ -12,18 +12,18 @@ authors:
 <p>Here we try to understand and memorize those models by their <strong>equivalent object functions</strong> under those probability learning philosophy.</p>
 <p>Some common sense for notation: D is the discriminator, G is the Generator, Q is auxiliary encoder, De is the decoder, En is the encoder.</p>
 <h1 id="original-gan">Original GAN</h1>
-<img src="/assets/img/OriginalGAN.jpg" title="This is an example image">
+<img src="../../../assets/img/OriginalGAN.jpg" width=600 title="This is an example image">
 <h1 id="ipm-gan">IPM GAN</h1>
-<img src="/assets/img/IPMGAN.jpg" title="This is an example image">
+<img src="../../../assets/img/IPMGAN.jpg" width=600 title="This is an example image">
 <h2 id="wgan">WGAN</h2>
-<img src="/assets/img/WGAN.jpg" title="This is an example image">
+<img src="../../../assets/img/WGAN.jpg" width=600  title="This is an example image">
 <h2 id="blgan">BLGAN</h2>
-<img src="/assets/img/BLGAN.jpg" title="This is an example image">
+<img src="../../../assets/img/BLGAN.jpg" width=600  title="This is an example image">
 <h1 id="info-gan">INFO GAN</h1>
-<img src="/assets/img/InfoGAN.jpg" title="This is an example image">
+<img src="../../../assets/img/InfoGAN.jpg" width=600  title="This is an example image">
 <h1 id="ae">AE</h1>
-<img src="/assets/img/AE.jpg" title="This is an example image">
+<img src="../../../assets/img/AE.jpg" width=600  title="This is an example image">
 <h1 id="vae">VAE</h1>
-<img src="/assets/img/VAE1.jpg" title="This is an example image">
+<img src="../../../assets/img/VAE1.jpg" width=600  title="This is an example image">
 <h2 id="condtional-vae">Condtional VAE</h2>
-<img src="/assets/img/CVAE1.jpg" title="This is an example image">
+<img src="../../../assets/img/CVAE1.jpg" width=600  title="This is an example image">

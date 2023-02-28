@@ -12,4 +12,4 @@ authors:
 Due to the separable nature of its mutual information, this allows us to use a small number of factor dimensions to achieve a better effect on subsequent classification or reconstruction tasks.</p>
 
 <h2 id="Sparsity in Information">Information Sparsity</h2>
-<img src="/assets/teaser/VAE_sparsity.png" title="Information separation and sparsity" height="300" >
+<img src="../../../assets/teaser/VAE_sparsity.png" title="Information separation and sparsity" height="300" >

@@ -21,7 +21,7 @@ layout: default
     
         <div class="col-sm-6">
         {% if page.profile.image %}
-            <img style="height: 300px;border-radius: 70px" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+            <img style="height: 300px;border-radius: 70px" src="{{ page.profile.image | prepend: './assets/img/' | relative_url }}">
             {% endif %}
             
    
