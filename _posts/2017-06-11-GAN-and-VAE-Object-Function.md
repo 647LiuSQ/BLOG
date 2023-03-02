@@ -2,7 +2,7 @@
 layout: distill
 title:  GAN and VAE Object Function
 date: 2017-06-11 00:00:00
-description: Some finding from <a href="https://arxiv.org/abs/1606.05908" target="_blank" rel="noopener">VAE Tutorial</a> and GAN papers.
+description: Some finding from VAE Tutorial and GAN papers.
 authors:
   - name: Shiqi Liu
 ---

@@ -2,7 +2,7 @@
 layout: distill
 title:  Understanding Self-Paced Learning
 date: 2023-02-27 00:00:00
-description: Some finding from <a href="https://arxiv.org/pdf/1805.08096.pdf" target="_blank" rel="noopener">Understanding Self-Paced Learning under Concave Conjugacy Theory</a> paper.
+description: Some finding from Understanding Self-Paced Learning under Concave Conjugacy Theory paper.
 authors:
   - name: Shiqi Liu
 ---
