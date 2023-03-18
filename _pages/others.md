@@ -15,7 +15,12 @@ importance: 10
             <li>National Second Prize in China Undergraduate Mathematical Contest in Modeling, 2014</li>
         </ul>    
 	</div>
-
+    <h3>Academic Services</h3>
+	<div>
+        <ul>
+            <li>Journal Reviewer: Pattern Recognition</li>
+        </ul>    
+	</div>
 	<h3>Personal</h3>
         <div>I sometimes post random thoughts in Chinese on <a href="https://www.zhihu.com/people/liu-shi-qi-11-24">Zhihu(知乎)</a>.</div>
 		<div>I like the computer game <a href="https://civilization.com/">civilization 6</a>. I also like reading <ul>
