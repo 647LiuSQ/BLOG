@@ -18,7 +18,10 @@ importance: 10
     <h3>Academic Services</h3>
 	<div>
         <ul>
-            <li>Journal Reviewer: Pattern Recognition</li>
+            <div>Journal Reviewer: </div>
+            <li>Pattern Recognition(PR)</li>
+            <li>IEEE Transactions on Neural Networks and Learning Systems(TNNLS)</li>
+            <li>IEEE Transactions on Circuits and Systems for Video Technology(TCSVT)</li>
         </ul>    
 	</div>
 	<h3>Personal</h3>
