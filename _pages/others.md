@@ -22,6 +22,8 @@ importance: 10
             <li>Pattern Recognition(PR)</li>
             <li>IEEE Transactions on Neural Networks and Learning Systems(TNNLS)</li>
             <li>IEEE Transactions on Circuits and Systems for Video Technology(TCSVT)</li>
+            <li>IEEE Transactions on Multimedia(TMM)</li>
+            <li>Engineering Applications of Artificial Intelligence(EAAI)</li>
         </ul>    
 	</div>
 	<h3>Personal</h3>
