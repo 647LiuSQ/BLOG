@@ -1,3 +1,144 @@
+@article{liu2020Survey,
+  title={深度表示学习在时序、图像与视频数据上的应用初探(Primary Applications of Deep Representation Learning in Time Series, Image and Video Data)},
+  author={Liu, Shiqi},
+  teaser={mastersurvey.jpg},
+  abbr={Master},
+  pdf={master.pdf},
+  journal={Xi'an jiaotong University Master Thesis},
+  bibtex={@article{liu2020Survey,
+  title={自步学习研究综述(A Survey On Self-paced Learning)},
+  author={Liu, Shiqi},
+  journal={Xi'an jiaotong University Bachelor},
+  year={2020},
+  publisher={}}
+},
+  bibtex_show = true,
+  abstract={The advent of the era of big data has brought about a drastic change in the basic model of machine learning. The traditional method of artificial feature extraction has been unable to meet the actual needs of diversified, complicated, and quantified application goals. Deep learning has gradually become the mainstream of applications due to its end-to-end data-driven adaptive feature extraction, which has attracted widespread attention in academia and industry. Based on the current research status, this article introduces representative deep learning methods for typical data types such as time series, images, and videos. Based on a deep understanding of the characteristics of the corresponding deep learning methods, it is applied to application problems such as hydrological time series processing, image factor learning, and emotional prediction of EEG data. The paper includes the following research contents. 
+First of all, we use the deep long short-term memory network (LSTM) to predict the daily runoff data of hydrological stations. Using the long short-term memory characteristics of LSTM, the deep LSTM achieves good results in Yichang Hydrological Station. We further compare the relative systematic error, relative standard deviation and relative error range of prediction results of LSTM and backpropagation neural network(BPNN) in flood season of Yi Chang, and the comparison results verify the superiority of the deep LSTM method over BPNN in predicting daily runoff in flood season. In order to verify the effectiveness of the proposed method, we compared the results of LSTM models and deep LSTM models on the data obtained from Cuntan, Wanxian, Fengjie and Yichang hydrological stations. The results show that both moels are suitable for daily runoff data, and deep LSTM models achieve better prediction results.
+The second part is about one of the main models of deep representation learning, the variational autoencoder (VAE). We focus on supervising the factors extracted by VAE. VAE is used to learn the independent low-dimensional representation of images, but it faces the problem that some pre-specified factors are ignored. We assert that the mutual information of the input and each learned factor of the representation plays a necessary indicator to discover the influential factors. At the same time, we delve into the objective function of VAE, which shows that it tends to induce the sparsity of mutual information of factors when it exceeds the essential dimension of the data, resulting in some non-influential factors which can be ignored and which have negligible data reconstruction capabilities. We show that mutual information can affect the lower bound of VAE reconstruction errors and down-stream classification tasks. We propose an algorithm to calculate the mutual information indicator of VAE and prove its consistency. Experimental results on the MNIST, CelebA, and DEAP datasets show that mutual information helps determine influential generating factors. Besides some generation factors are interpretable, which can help down-stream generation and classification tasks. At last, we focus on deep representation learning applied to EEG video data emotion recognition. By characterizing the VAE and LSTM-based EEG emotion representation learning architecture, the method reaches the latest level. At the same time, the model can also monitor the learned feature shapes. 
+Summarizing the contents of the above three parts, the deep representation learning achieves good performance in time series, image, and video data and can reach the international frontier in some known application fields, such as hydrological prediction, image factor learning, and EEG emotion recognition. Therefore, this paper has significant research and application inspiration for the methodological expansion of these application fields and the methodological level of deep learning itself.},
+  selected=true,
+  year={2020}
+}
+@article{liu2017Survey,
+  title={自步学习研究综述(A Survey On Self-paced Learning)},
+  author={Liu, Shiqi},
+  teaser={selfpacedsuvey.jpg},
+  abbr={Bachelor},
+  pdf={bachelor.pdf},
+  journal={Xi'an jiaotong University Bachelor Thesis},
+  slides= {bachelorrepresentation.pdf},
+  bibtex={@article{liu2017Survey,
+  title={自步学习研究综述(A Survey On Self-paced Learning)},
+  author={Liu, Shiqi},
+  journal={Xi'an jiaotong University Bachelor},
+  year={2017},
+  publisher={}}
+},
+  bibtex_show = true,
+  abstract={ In the era of big data, a lot of information is contained in a large amount of imperfect data. In order to extract useful information from those data, machine learning algorithms should be provided with the abilities of both data selection and data learning. To solve this problem, drawing lessons from the principle of human curriculum learning, which is to learn from simple to difficult adaptively, a new learning regime called self-paced learning(SPL) has appeared in recent years. SPL has developed rapidly and made extensive applications in the fields of machine learning, mainly including semi-supervised learning, weakly supervised learning, robust learning, and very few samples learning. This paper surveys recent achievements and related applications of SPL in machine learning fields. We review the classical curriculum learning and SPL regimes, further, summarize the internal prior knowledge utilized by the SPL and external curriculum prior knowledge utilized by the self-paced curriculum learning, SPL with diversity and self-paced co-training. Current advancements of optimization theory regarding SPL are introduced and united together under the concave conjugacy of SPL. In particular, we first raise the probability viewpoint for SPL, obtain the upper bound of the optimal performance as well as the influence factor of SPL and render a general probability framework for SPL. In the end, we look into the future of the SPL in the closed and open learning environment. The general probability viewpoint could motivate the design of the easiness standard, the formulation of novel data selection principles, the integration with other learning algorithms regarding the self-paced methodologies which would further benefit the promotion and applications of SPL in practical problems.}, 
+selected=true,
+  year={2017}
+}
+
+
+
+@article{liu2020discovering,
+  title={Discovering influential factors in variational autoencoders},
+  author={Liu, Shiqi and Liu, Jingxin and Zhao, Qian and Cao, Xiangyong and Li, Huibin and Meng, Deyu and Meng, Hongying and Liu, Sheng},
+  journal={Pattern Recognition},
+  teaser={VAE_sparsity.png},
+  abbr={Pattern Recognition},
+  pdf={https://arxiv.org/pdf/1809.01804.pdf},
+   bibtex={@article{liu2018understanding,
+  title={Discovering influential factors in variational autoencoders},
+  author={Liu, Shiqi and Liu, Jingxin and Zhao, Qian and Cao, Xiangyong and Li, Huibin and Meng, Deyu and Meng, Hongying and Liu, Sheng},
+  journal={Pattern Recognition},
+  year={2018},
+  publisher={Elsevier}}
+},
+  bibtex_show = true,
+  abstract={In the field of machine learning, it is still a critical issue to identify and supervise the learned representation without manually intervening or intuition assistance to extract useful knowledge or serve for the downstream tasks. In this work, we focus on supervising the influential factors extracted by the variational autoencoder (VAE). The VAE is proposed to learn independent low dimension representation while facing the problem that sometimes pre-set factors are ignored. We argue that the mutual information of the input and each learned factor of the representation plays a necessary indicator of discovering the influential factors. We find the VAE objective inclines to induce mutual information sparsity in factor dimension over the data intrinsic dimension and therefore result in some non-influential factors whose function on data reconstruction could be ignored. We show mutual information also influences the lower bound of VAE’s reconstruction error and downstream classification task. To make such indicator applicable, we design an algorithm for calculating the mutual information for VAE and prove its consistency. Experimental results on MNIST, CelebA and DEAP datasets show that mutual information can help determine influential factors, of which some are interpretable and can be used to further generation and classification tasks, and help discover the variant that connects with emotion on DEAP dataset.},
+  selected=true,
+  code={https://github.com/647LiuSQ/Discovering-influential-factors-in-variational-autoencoders},
+  volume={100},
+  pages={107166},
+  selected=true,
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+
+@article{liu2018preliminary,
+  title={Preliminary theoretical troubleshooting in variational autoencoder},
+  author={Liu, Shiqi and Zhao, Qian, and Cao, Xiangyong and Meng, Deyu},
+  journal={Openreview},
+  abbr={Openreview},
+  teaser={factorsdimension.jpg},
+  pdf={https://openreview.net/pdf?id=SkERSm-0-},
+  code={https://github.com/647LiuSQ/Discovering-influential-factors-in-variational-autoencoders},
+  abstract={What would be learned by variational autoencoder(VAE) and what influence the disentanglement of VAE? This paper tries to preliminarily address VAE’s intrinsic dimension, real factor, disentanglement and indicator issues theoretically in the idealistic situation and implementation issue practically through noise modeling perspective in the realistic case. On intrinsic dimension issue, due to information conservation, the idealistic VAE learns and only learns intrinsic factor dimension. Besides, suggested by mutual information separation property, the constraint induced by Gaussian prior to the VAE objective encourages the information sparsity in dimension. On disentanglement issue, subsequently, inspired by information conservation theorem the clarification on disentanglement in this paper is made. On real factor issue, due to factor equivalence, the idealistic VAE possibly learns any factor set in the equivalence class. On indicator issue, the behavior of current disentanglement metric is discussed, and several performance indicators regarding the disentanglement and generating influence are subsequently raised to evaluate the performance of VAE model and to supervise the used factors. On implementation issue, the experiments under noise modeling and constraints empirically testify the theoretical analysis and also show their own characteristic in pursuing disentanglement.},
+  bibtex={@article{liu2018preliminary,
+  title={Preliminary theoretical troubleshooting in variational autoencoder},
+  author={Liu, Shiqi and Zhao, Qian, and Cao, Xiangyong and Meng, Deyu},
+  journal={Openreview},
+  year={2018},
+  publisher={Openreview}}
+},
+  bibtex_show = true,
+  year={2018},
+  selected=true,
+  publisher={Openreview}
+}
+
+@article{liu2017fitting,
+  title={Fitting Data Noise in Variational Autoencoder},
+  author={Liu, Shiqi and Zhao, Qian, and Cao, Xiangyong and Meng, Deyu},
+  journal={Openreview},
+  abbr={Openreview},
+  teaser={mixtureofnoise.jpg},
+  bibtex={@article{liu2017fitting,
+  title={Fitting Data Noise in Variational Autoencoder},
+  author={Liu, Shiqi and Zhao, Qian, and Cao, Xiangyong and Meng, Deyu},
+  journal={Openreview},
+  year={2017},
+  publisher={Openreview}
+}
+},
+  pdf={https://openreview.net/references/pdf?id=SJTGmVZ0b},
+  code={https://github.com/647LiuSQ/Discovering-influential-factors-in-variational-autoencoders},
+  year={2017},
+  abstract={Why does variational autoencoder(VAE) suffer from bad reconstruction, and what influence the disentanglement of VAE? This paper tries to address those issues through a noise modelling perspective. On one fold, the paper proposes the adaptive noise learning algorithms of Gaussian noise and mixture Gaussian noise assumption which empirically contributes to a better reconstruction than original
+VAE noise assumptions. On other fold, several generating factor properties in the idealistic VAE case are discussed and several performance indicators regarding the disentanglement and generating influence are subsequently raised to evaluate the performance of VAE model and to supervise the used factors. Theoretical analysis is reflexed in the experiment results.},
+  bibtex_show = true,
+  selected=true,
+  publisher={Openreview}
+}
+
+
+@article{liu2018understanding,
+  title={Understanding self-paced learning under concave conjugacy theory},
+  author={Liu, Shiqi and Ma, Zilu and Meng, Deyu and Wang, Kai-Dong and Zhang, Yong},
+  teaser={concave conjugacy.png},
+  abbr={CIS},
+  pdf={https://www.intlpress.com/site/pub/files/_fulltext/journals/cis/2018/0018/0001/CIS-2018-0018-0001-a001.pdf},
+  journal={Communiations in Information and Systems},
+  volume={18},
+  slides= {curriculum-present.pdf},
+  pages={1-35},
+  bibtex={@article{liu2018understanding,
+  title={Understanding self-paced learning under concave conjugacy theory},
+  author={Liu, Shiqi and Ma, Zilu and Meng, Deyu and Wang, Kai-Dong and Zhang, Yong},
+  journal={Communiations in Information and Systems},
+  year={2018},
+  publisher={intlpress}}
+},
+  bibtex_show = true,
+  abstract={By simulating the easy-to-hard learning manners of humans/animals, the learning regimes called curriculum learning (CL) and selfpaced learning (SPL) have been recently investigated and invoked broad interests. However, the intrinsic mechanism for analyzing why such learning regimes can work has not been comprehensively investigated. To this issue, this paper proposes a concave conjugacy theory for looking into the insight of CL/SPL. Specifically, by using this theory, we prove the equivalence of the SPL regime and a latent concave objective, which is closely related to the known non-convex regularized penalty widely used in statistics and machine learning. Beyond the previous theory for explaining CL/SPL insights, this new theoretical framework on one hand facilitates two direct approaches for designing new SPL models for certain tasks, and on the other hand can help conduct the latent objective of selfpaced curriculum learning, which is the advanced version of both CL/SPL and possess advantages of both learning regimes to a certain extent. This further facilitates a theoretical understanding for SPCL, instead of only CL/SPL as conventional. Under this theory, we attempt to attain intrinsic latent objectives of two curriculum forms, the partial order and group curriculums, which easily follow the theoretical understanding of the corresponding SPCL regimes.},
+  selected=true,
+  year={2018}
+}
 
 @article{ma2018convergence,
   title={On convergence properties of implicit self-paced objective},
@@ -9,37 +150,20 @@
   teaser={cover_is_subdiverity.png},
   pdf={https://arxiv.org/pdf/1703.09923},
   year={2018},
+   bibtex={@article{liu2018understanding,
+  title={On convergence properties of implicit self-paced objective},
+  author={Liu, Shiqi and Ma, Zilu and Meng, Deyu and Zhang, Yong and Lo, SioLong and Han, Zhi},
+  journal={Information Sciences},
+  year={2018},
+  publisher={Elsevier}}
+},
+  bibtex_show = true,
+  abstract={Self-paced learning (SPL) is a new methodology that simulates the learning principle of humans/animals to start learning easier aspects of a learning task, and then gradually take more complex examples into training. This new-coming learning regime has been empirically substantiated to be effective in various computer vision and pattern recognition tasks. Recently, it has been proved that the SPL regime has a close relationship to a implicit self-paced objective function. While this implicit objective could provide helpful interpretations to the effectiveness, especially the robustness, insights under the SPL paradigms, there are still no theoretical results strictly proved to verify such relationship. To this issue, in this paper, we provide some convergence results on this implicit objective of SPL. Specifically, we prove that the learning process of SPL always converges to critical points of this implicit objective under some mild conditions. This result verifies the intrinsic relationship between SPL and this implicit objective, and makes the previous robustness analysis on SPL complete and theoretically rational.},
   selected=true,
   publisher={Elsevier}
 }
 
-@article{liu2020discovering,
-  title={Discovering influential factors in variational autoencoders},
-  author={Liu, Shiqi and Liu, Jingxin and Zhao, Qian and Cao, Xiangyong and Li, Huibin and Meng, Deyu and Meng, Hongying and Liu, Sheng},
-  journal={Pattern Recognition},
-  teaser={VAE_sparsity.png},
-  abbr={Pattern Recognition},
-  pdf={https://arxiv.org/pdf/1809.01804.pdf},
-  code={https://github.com/647LiuSQ/Discovering-influential-factors-in-variational-autoencoders},
-  volume={100},
-  pages={107166},
-  selected=true,
-  year={2020},
-  publisher={Elsevier}
-}
 
-@article{liu2018understanding,
-  title={Understanding self-paced learning under concave conjugacy theory},
-  author={Liu, Shiqi and Ma, Zilu and Meng, Deyu},
-  teaser={concave conjugacy.png},
-  abbr={CIS},
-  pdf={https://www.intlpress.com/site/pub/files/_fulltext/journals/cis/2018/0018/0001/CIS-2018-0018-0001-a001.pdf},
-  journal={Communiations in Information and Systems},
-  volume={18},
-  pages={1-35},
-  selected=true,
-  year={2018}
-}
 
 @article{liu2021auto,
   title={Auto robust relative radiometric normalization via latent change noise modelling},
@@ -47,6 +171,14 @@
   journal={arXiv preprint arXiv:2111.12406},
   pdf={https://arxiv.org/abs/2111.12406},
   teaser={change detection.png},
+  bibtex= {@article{liu2021auto,
+  title={Auto robust relative radiometric normalization via latent change noise modelling},
+  author={Liu, Shiqi and Wang, Lu and Lian, Jie and Liu, Cong and Zhan, Xuchen and Lu, Jintao and Liu, Jie and Wang, Ting and Geng, Dong and Duan, Hongwei and others},
+  journal={arXiv preprint arXiv:2111.12406},
+  year={2021}
+}},
+  bibtex_show = true,
+  abstract={Relative radiometric normalization(RRN) of different satellite images of the same terrain is necessary for change detection, object classification/segmentation, and map-making tasks. However, traditional RRN models are not robust, disturbing by object change, and RRN models precisely considering object change can not robustly obtain the no-change set. This paper proposes auto robust relative radiometric normalization methods via latent change noise modeling. They utilize the prior knowledge that no change points possess small-scale noise under relative radiometric normalization and that change points possess large-scale radiometric noise after radiometric normalization, combining the stochastic expectation maximization method to quickly and robustly extract the no-change set to learn the relative radiometric normalization mapping functions. This makes our model theoretically grounded regarding the probabilistic theory and mathematics deduction. Specifically, when we select histogram matching as the relative radiometric normalization learning scheme integrating with the mixture of Gaussian noise(HM-RRN-MoG), the HM-RRN-MoG model achieves the best performance. Our model possesses the ability to robustly against clouds/fogs/changes. Our method naturally generates a robust evaluation indicator for RRN that is the no-change set root mean square error. We apply the HM-RRN-MoG model to the latter vegetation/water change detection task, which reduces the radiometric contrast and NDVI/NDWI differences on the no-change set, generates consistent and comparable results. We utilize the no-change set into the building change detection task, efficiently reducing the pseudo-change and boosting the precision.},
   selected=true,
   year={2021}
 }
@@ -57,6 +189,35 @@
   journal={arXiv preprint arXiv:2106.07441},
   pdf={https://arxiv.org/abs/2106.07441},
   teaser={poisson.png},
+  abstract={ Relative radiometric normalization (RRN) mosaicking among multiple remote sensing images is crucial for the downstream tasks, including map-making, image recognition, semantic segmentation, and change detection. However, there are often seam lines on the mosaic boundary and radiometric contrast left, especially in complex scenarios, making the appearance of mosaic images unsightly and reducing the accuracy of the latter classification/recognition algorithms. This paper renders a novel automatical approach to eliminate seam lines in complex RRN mosaicking scenarios. It utilizes the histogram matching on the overlap area to alleviate radiometric contrast, Poisson editing to remove the seam lines, and merging procedure to determine the normalization transfer order. Our method can handle the mosaicking seam lines with arbitrary shapes and images with extreme topological relationships (with a small intersection area). These conditions make the main feathering or blending methods, e.g., linear weighted blending and Laplacian pyramid blending, unavailable. In the experiment, our approach visually surpasses the automatic methods without Poisson editing and the manual blurring and feathering method using GIMP software.},
+    bibtex={@article{liu2021automatically,
+  title={Automatically eliminating seam lines with Poisson editing in complex relative radiometric normalization mosaicking scenarios},
+  author={Liu, Shiqi and Lian, Jie and Zhan, Xuchen and Liu, Cong and Tian, Yuze and Duan, Hongwei},
+  journal={arXiv preprint arXiv:2106.07441},
+  year={2021}
+}},
+  bibtex_show = true,
   selected=true,
   year={2021}
+}
+
+
+@article{liu2015Vapor,
+  title={水蒸汽对气候变暖影响的实验报告},
+  author={刘仕琪 (Shiqi Liu), 金广禹, 潘劭平, 马腾, 刘宇曼, 卢涵, 陈佑宁, 陈式如},
+  teaser={psc.jpg},
+  abbr={Geography Teaching},    
+  pdf={http://www.cqvip.com/qk/96717x/201524/667665821.html},
+  journal={地理教学 (Geography Teaching)},
+  bibtex={@article{liu2015Vapor,
+  title={水蒸汽对气候变暖影响的实验报告},
+  author={刘仕琪 (Shiqi Liu), 金广禹, 潘劭平, 马腾, 刘宇曼, 卢涵, 陈佑宁, 陈式如},
+  journal={地理教学 (Geography Teaching)},
+  year={2015},
+  publisher={}}
+},
+  bibtex_show = true,
+  abstract={  通过四次定性对比实验,一次模拟光源定量实验,对水蒸汽的吸热作用,温室效应进行了研究,用Excel软件将实验数据制作成实时温度变化曲线图,直观显示实验的结果.实验证明:在相同辐射条件下的密闭容器中,温度的上升与水蒸汽含量正相关;升温过程中,水蒸汽越多,越晚到达平衡温度,且平衡温度越高;不论在升温还是降温过程中,水蒸汽越多温度越高.},
+  selected=true,
+  year={2015}
 }
