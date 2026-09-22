@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
   <head>
@@ -94,18 +94,12 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item ">
-            <a class="nav-link" href="/BLOG/">
-              Home
-              
-            </a>
+            <a class="nav-link" href="/BLOG/"><span data-i18n="nav.home">Home</span></a>
           </li>
           
           <!-- Blog -->
           <li class="nav-item ">
-            <a class="nav-link" href="/BLOG/blog/">
-              Blog
-              
-            </a>
+            <a class="nav-link" href="/BLOG/blog/"><span data-i18n="nav.blog">Blog</span></a>
           </li>
           
           <!-- Other pages -->
@@ -118,25 +112,7 @@
           
           
           <li class="nav-item ">
-              <a class="nav-link" href="/BLOG/publications/">
-                Publications
-                
-              </a>
-          </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li class="nav-item ">
-              <a class="nav-link" href="/BLOG/socialpapers/">
-                Social Science
-                
-              </a>
+              <a class="nav-link" href="/BLOG/publications/"><span data-i18n="nav.publications">Publications</span></a>
           </li>
           
           
@@ -144,10 +120,7 @@
           
           
           <li class="nav-item active">
-              <a class="nav-link" href="/BLOG/others/">
-                Miscellaneous
-                
-                <span class="sr-only">(current)</span>
+              <a class="nav-link" href="/BLOG/others/"><span data-i18n="nav.others">Miscellaneous</span><span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -161,6 +134,10 @@
                   <i class="fas fa-sun"></i>
               </a>
             </div>
+            <div class = "toggle-container">
+              <a id = "lang-toggle" title="中文/English">中文</a>
+            </div>
+
           
         </ul>
       </div>
@@ -176,76 +153,58 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Miscellaneous</h1>
+    <h1 class="post-title" data-i18n="others.title">Miscellaneous</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
     <div>
 
-    <h3>Awards</h3>
+    <h3 data-i18n="others.awards">Awards</h3>
 	<div>
         <ul>
-            <li>National Award Graduate Scholarship, 2018</li>
-            <li>National Second Prize in China Undergraduate Mathematical Contest in Modeling, 2014</li>
+            <li data-i18n="others.award1">National Award Graduate Scholarship, 2018</li>
+            <li data-i18n="others.award2">National Second Prize in China Undergraduate Mathematical Contest in Modeling, 2014</li>
         </ul>    
 	</div>
-    <h3>Academic Services</h3>
+    <h3 data-i18n="others.services">Academic Services</h3>
 	<div>
         <ul>
-            <div>Journal Reviewer: </div>
+            <div data-i18n="others.jrev">Journal Reviewer: </div>
             <li>Pattern Recognition(PR)</li>
             <li>IEEE Transactions on Neural Networks and Learning Systems(TNNLS)</li>
             <li>IEEE Transactions on Circuits and Systems for Video Technology(TCSVT)</li>
             <li>IEEE Transactions on Multimedia(TMM)</li>
             <li>Engineering Applications of Artificial Intelligence(EAAI)</li>
-            <div>Conference Reviewer: </div>
+            <div data-i18n="others.crev">Conference Reviewer: </div>
             <li>Uncertainty in Artificial Intelligence(UAI 2023)</li>
         </ul>
 	</div>
-    <h3>Patents</h3>
+    <h3 data-i18n="others.patents">Patents</h3>
         <ul>
         <div>
-        <li>CN109271964B(on sale with technology transfer).<a href="https://patents.google.com/patent/CN109271964B/en?inventor=%E5%88%98%E4%BB%95%E7%90%AA&amp;oq=%E5%88%98%E4%BB%95%E7%90%AAEmotion"> Emotion recognition method and system via deep learning model and long-short memory network.</a></li>
-        <li>CN114937211B.<a href="https://patents.google.com/patent/CN114937211B/en?oq=CN114937211B"> Change Detection Method of Remote Sensing Image via Invariant Object.</a></li>
-        <li>CN114937211B.<a href="https://patents.google.com/patent/CN114937211B/en?oq=CN114937211B"> A Usability Evaluation Method for Geometric Quality of Optical Remote Sensing Images.</a></li>
-        <li>CN114937038B.<a href="https://patents.google.com/patent/CN114937038B/en?oq=CN114937038B"> Usability-Oriented Quality Evaluation Method of Remote Sensing Image.</a></li>
-        <li>CN115082452B.<a href="https://patents.google.com/patent/CN115082452B/en?oq=CN115082452B"> Quantitative Evaluation Method of Remote Sensing Image regarding Cloud and Shadow.</a></li>
-        <li>CN115661504A.<a href="https://patents.google.com/patent/CN115661504A/en?oq=CN115661504A"> Remote Sensing Sample Classification Method Via Transfer Learning and Bag of Visual Words.</a></li>
-        <li>CN115439710A.<a href="https://patents.google.com/patent/CN115439710A/en?oq=CN115439710A"> Annotation Method for Remote Sensing Samples via Combined Transfer Learning.</a></li>
-        <li>CN115269896A.<a href="https://patents.google.com/patent/CN115269896A/en?oq=CN115269896A"> Annotation Method of Remote Sensing Samples via 3D Point Cloud.</a></li>
-        <li>CN113936227A.<a href="https://patents.google.com/patent/CN113936227A/en?oq=CN113936227A"> Remote Sensing Image Sample Migration Method.</a></li>
-        <li>CN113850734A.<a href="https://patents.google.com/patent/CN113850734A/en?oq=CN113850734A"> Automatic Color Uniform Method of Remote Sensing Image Via Poisson Editing.</a></li>
+        <li>CN109271964B. <a href="https://patents.google.com/patent/CN109271964B/en?inventor=%E5%88%98%E4%BB%95%E7%90%AA&amp;oq=%E5%88%98%E4%BB%95%E7%90%AAEmotion" data-i18n="others.patent1">Emotion recognition method and system via deep learning model and long-short memory network.</a></li>
+        <li>CN114937211B. <a href="https://patents.google.com/patent/CN114937211B/en?oq=CN114937211B" data-i18n="others.patent2">Change Detection Method of Remote Sensing Image via Invariant Object.</a></li>
+        <li>CN114937211B. <a href="https://patents.google.com/patent/CN114937211B/en?oq=CN114937211B" data-i18n="others.patent3">A Usability Evaluation Method for Geometric Quality of Optical Remote Sensing Images.</a></li>
+        <li>CN114937038B. <a href="https://patents.google.com/patent/CN114937038B/en?oq=CN114937038B" data-i18n="others.patent4">Usability-Oriented Quality Evaluation Method of Remote Sensing Image.</a></li>
+        <li>CN115082452B. <a href="https://patents.google.com/patent/CN115082452B/en?oq=CN115082452B" data-i18n="others.patent5">Quantitative Evaluation Method of Remote Sensing Image regarding Cloud and Shadow.</a></li>
+        <li>CN115661504A. <a href="https://patents.google.com/patent/CN115661504A/en?oq=CN115661504A" data-i18n="others.patent6">Remote Sensing Sample Classification Method Via Transfer Learning and Bag of Visual Words.</a></li>
+        <li>CN115439710A. <a href="https://patents.google.com/patent/CN115439710A/en?oq=CN115439710A" data-i18n="others.patent7">Annotation Method for Remote Sensing Samples via Combined Transfer Learning.</a></li>
+        <li>CN115269896A. <a href="https://patents.google.com/patent/CN115269896A/en?oq=CN115269896A" data-i18n="others.patent8">Annotation Method of Remote Sensing Samples via 3D Point Cloud.</a></li>
+        <li>CN113936227A. <a href="https://patents.google.com/patent/CN113936227A/en?oq=CN113936227A" data-i18n="others.patent9">Remote Sensing Image Sample Migration Method.</a></li>
+        <li>CN113850734A. <a href="https://patents.google.com/patent/CN113850734A/en?oq=CN113850734A" data-i18n="others.patent10">Automatic Color Uniform Method of Remote Sensing Image Via Poisson Editing.</a></li>
+        <li>CN122493862A. <a href="https://patents.google.com/patent/CN122493862A/en?oq=CN122493862A" data-i18n="others.patent11">A Dog Bark Detection and Monitoring Method, System, and Electronic Device</a></li>
+        <li>CN122696052A. <a href="https://patents.google.com/patent/CN122696052A/en?oq=CN122696052A" data-i18n="others.patent12">A Partial-Label Learning Based Dog Bark Emotion Recognition Method, System, and Electronic Device</a></li>
         </div>
         </ul>
-	<h3>Personal</h3>
-        <div>I sometimes post random thoughts in Chinese on <a href="https://www.zhihu.com/people/liu-shi-qi-11-24">Zhihu(知乎)</a>.</div>
-		<div>I like the computer game <a href="https://civilization.com/">civilization 6</a>. I also like reading <ul>
+	<h3 data-i18n="others.personal">Personal</h3>
+		<div><span data-i18n-html="others.personal_game">I like the computer game <a href="https://civilization.com/">civilization 6</a>. I also like reading</span> <ul>
             <li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">PRML</a>, by Christopher Bishop,</li>
             <li><a href="https://cs.nyu.edu/~mohri/mlbook/">Foundations of Machine Learning</a>, by Mehryar Mohri,</li>
             <li><a href="http://www.deeplearningbook.org/">Deep Learning</a>, by Ian Goodfellow,</li>
             <li><a href="http://coltech.vnu.edu.vn/~thainp/books/Wiley_-_2006_-_Elements_of_Information_Theory_2nd_Ed.pdf">Elements of Information Theory, 2nd Edition</a>, by Thomas M. Cover,</li>
             <li><a href="https://en.wikipedia.org/wiki/The_Book_of_Why">The Book of Why</a>, by Judea Pearl.</li>
             </ul>
-        </div>
-        <h3>Friends</h3>
-        <div>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/yuxiang-gao-268084114/">Yuxiang Gao</a></li>
-            <li><a href="http://www.yangze.tech/">Ze Yang</a></li>
-            <li><a href="https://michaelglhx.github.io/BridgeBlog/">Lihao Guo</a></li>
-            <li><a href="https://oerrol.github.io/">Hao Song</a></li>
-            <li><a href="https://zijiejin.github.io/">Zijie Jin</a></li>
-            <li><a href="https://www.math.ucsd.edu/~zim022/">Zilu Ma</a></li>
-            <li><a href="https://u.osu.edu/xianyu/">Xian Yu</a></li>
-            <li><a href="https://www.researchgate.net/profile/Yuan-Gao-248?_iepl%5BgeneralViewId%5D=lt1Pp1ePgnMsspNHLUQjPUVz5aUClApnjnf3&amp;_iepl%5Bcontexts%5D%5B0%5D=searchReact&amp;_iepl%5BviewId%5D=qDWEGyVHDS3V5gMtftg0ZP2NC4OM3fQWNU0V&amp;_iepl%5BsearchType%5D=researcher&amp;_iepl%5Bdata%5D%5BcountMoreThan20%5D=1&amp;_iepl%5Bdata%5D%5BinteractedWithPosition1%5D=1&amp;_iepl%5Bdata%5D%5BwithoutEnrichment%5D=1&amp;_iepl%5Bposition%5D=1&amp;_iepl%5BrgKey%5D=AC%3A20962476&amp;_iepl%5BinteractionType%5D=profileView">Yuan Gao</a></li>
-            <li><a href="https://scholar.google.com/citations?hl=en&amp;user=2kSyD_EAAAAJ">Sheng Liu</a></li>
-            <li><a href="https://www.jiongzhu.net/">Jiong Zhu</a></li>
-            <li><a href="https://www.linkedin.com/in/dancju/">Nerddan</a></li>
-            <li><a href="https://math.cornell.edu/tianhao-xian">Tianhao Xian</a></li>
-            <li><a href="https://math.uchicago.edu/~yang/">Jincheng Yang</a></li>
-            <li><a href="https://www.linkedin.com/in/haodong-sun-1344301a3/">Haodong Sun</a></li>
-        </ul>
         </div>
 </div>
 
@@ -295,6 +254,7 @@
 
 <!-- Load Common JS -->
 <script src="/BLOG/assets/js/common.js"></script>
+<script src="/BLOG/assets/js/lang.js"></script>
 
 
 </html>

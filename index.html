@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
   <head>
@@ -92,18 +92,12 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item ">
-            <a class="nav-link" href="/BLOG/">
-              Home
-              
-            </a>
+            <a class="nav-link" href="/BLOG/"><span data-i18n="nav.home">Home</span></a>
           </li>
           
           <!-- Blog -->
           <li class="nav-item ">
-            <a class="nav-link" href="/BLOG/blog/">
-              Blog
-              
-            </a>
+            <a class="nav-link" href="/BLOG/blog/"><span data-i18n="nav.blog">Blog</span></a>
           </li>
           
           <!-- Other pages -->
@@ -114,25 +108,7 @@
           
           
           <li class="nav-item ">
-              <a class="nav-link" href="/BLOG/publications/">
-                Publications
-                
-              </a>
-          </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li class="nav-item ">
-              <a class="nav-link" href="/BLOG/socialpapers/">
-                Social Science
-                
-              </a>
+              <a class="nav-link" href="/BLOG/publications/"><span data-i18n="nav.publications">Publications</span></a>
           </li>
           
           
@@ -140,10 +116,7 @@
           
           
           <li class="nav-item ">
-              <a class="nav-link" href="/BLOG/others/">
-                Miscellaneous
-                
-              </a>
+              <a class="nav-link" href="/BLOG/others/"><span data-i18n="nav.others">Miscellaneous</span></a>
           </li>
           
           
@@ -155,6 +128,10 @@
                   <i class="fas fa-sun"></i>
               </a>
             </div>
+            <div class = "toggle-container">
+              <a id = "lang-toggle" title="中文/English">中文</a>
+            </div>
+
           
         </ul>
       </div>
@@ -173,16 +150,8 @@
   <article>
     <div class="row">
         <div class="col-sm-6">
-            <h1 class="post-title">
-            Shiqi Liu
-            </h1>
-            <p class="desc"><p>I received the Master's Degree in Applied Mathematics from Xi'an Jiaotong University, advised by Prof. <a href="https://scholar.google.com/citations?user=an6w-64AAAAJ&hl=zh-CN">Deyu Meng</a>. My research interests include machine learning, computer vision, and remote sensing. For example
-    <ul>
-     <li><a href="https://arxiv.org/pdf/1809.01804.pdf">Generative Models</a>,</li>
-     <li><a href="https://arxiv.org/pdf/1805.08096.pdf">Self-paced </a> <a href="https://arxiv.org/pdf/1703.09923">Learning </a>,</li>
-     <li><a href="https://arxiv.org/abs/2111.12406">Bayesian Learning</a>,</li>
-     <li>and <a href="https://arxiv.org/abs/2106.07441">Fusion</a>.</li>
-    </ul></p>
+            <h1 class="post-title" data-i18n="home.name">Shiqi Liu</h1>
+            <p class="desc"><p data-i18n-html="home.intro">I am currently pursuing a Ph.D. in Intelligent Science and Technology at Huazhong University of Science and Technology, advised by Prof. Yihua Tan. I received the Master's Degree in Applied Mathematics from Xi'an Jiaotong University, advised by Prof. <a href="https://scholar.google.com/citations?user=an6w-64AAAAJ&hl=zh-CN">Deyu Meng</a>.</p>
 </p>
             
         </div>
@@ -191,23 +160,19 @@
 
         <div class="col-sm-6 mx-auto">
         
-            <img style="height: 200px;border-radius: 70px" src="/BLOG/assets/img/prof_pic.jpg">
+            <img style="height: 200px;border-radius: 70px; display: block; margin-left: auto; margin-right: auto;" src="/BLOG/assets/img/prof_pic.jpg">
             
              <p class="desc"></p>
 
             <div class="social">
                 <div class="contact-icons">
                 <a href="mailto:%73%68%69%71%69.%6C%69%75%36%34%37@%66%6F%78%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
-<a href="assets/pdf/cv.pdf"><i class="ai ai-cv"></i></a>
 <a href="https://orcid.org/0000-0002-9165-3132" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
 <a href="https://scholar.google.com/citations?user=yltdaHgAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
 
 <a href="https://www.researchgate.net/profile/Shiqi-Liu-10# your profile on ResearchGate/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
 <a href="https://github.com/647LiuSQ" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 <a href="https://www.linkedin.com/in/shiqi-liu-a06149123" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-
-
-<a href="https://www.quora.com/profile/Shiqi-Liu-25" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>
 
 
 
@@ -222,7 +187,13 @@
 
 
     <div class="clearfix">
-      <p>Prior to that, I received the Bachelor’s Degree in Math and Applied Math(Honor Science Program and Special Class for Gifted Young) from Xi’an Jiaotong University.</p>
+      <p data-i18n="home.prior">Prior to that, I received the Bachelor’s Degree in Math and Applied Math(Honor Science Program and Special Class for Gifted Young) from Xi’an Jiaotong University.</p>
+      <p><strong data-i18n="home.ri_title">Current Research Interests</strong></p>
+      <p data-i18n-html="home.ri">My research focuses on how to enable agents to <strong>autonomously generate emotions</strong>, allowing them to pursue <strong>high-level goals—such as survival, human well-being, social connectedness, happiness, a sense of control, and self-identity</strong>—while discovering and generating goals and dynamically regulating the priorities of <strong>lower-level goals, including task completion, exploration, energy homeostasis, social homeostasis, and safety</strong>. Ultimately, I aim to develop a foundation for agents and embodied intelligence to integrate into human life and achieve long-term autonomous operation in complex and changing environments, particularly when faced with multiple autonomous goals that may compete or even conflict with one another (e.g., self-preservation versus promoting human well-being).</p>
+      <p><strong data-i18n="home.et_title">Emotion Theory</strong></p>
+      <p data-i18n="home.et">My work is grounded in a goal-directed theory of emotion, which posits that the core mechanism underlying emotion generation is a goal-directed control cycle. Each cycle involves detecting discrepancies between the current state and a desired goal state, followed by selecting strategies or actions that can reduce those discrepancies. Multiple goal-directed cycles may operate simultaneously and compete for control of behavior. From this perspective, the fundamental distinction between emotional and non-emotional decision-making lies not in the underlying decision-making mechanism itself, but in the value of the goals involved. Emotional responses arise when goals that are particularly important to the individual are activated, threatened, or substantially obstructed.</p>
+      <p><strong data-i18n="home.past_title">Past Research Directions</strong></p>
+      <p data-i18n="home.past">My previous research has also spanned a range of topics, including multimodal large language models, interpretability, generative models, self-paced learning, Bayesian learning, generalization, remote sensing, and image fusion.</p>
 
 
     </div>
@@ -230,7 +201,7 @@
 
     
       <div class="news">
-  <h2>News</h2>
+  <h2 data-i18n="home.news">News</h2>
   
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
@@ -238,22 +209,12 @@
       
         <tr>
           <th scope="row">Jul 1, 2020</th>
-          <td>
-            
-              I would like to express my sincere gratitude to the School of Mathematics and Statistics of Xi’an Jiaotong University for bestowing upon me the Excellent Master Thesis Award.
-
-            
-          </td>
+          <td data-i18n="home.news1">I would like to express my sincere gratitude to the School of Mathematics and Statistics of Xi’an Jiaotong University for bestowing upon me the Excellent Master Thesis Award.</td>
         </tr>
       
         <tr>
           <th scope="row">Jul 1, 2017</th>
-          <td>
-            
-              I would like to express my sincere gratitude to the School of Mathematics and Statistics of Xi’an Jiaotong University for bestowing upon me the Excellent Bachelor Thesis Award.
-
-            
-          </td>
+          <td data-i18n="home.news2">I would like to express my sincere gratitude to the School of Mathematics and Statistics of Xi’an Jiaotong University for bestowing upon me the Excellent Bachelor Thesis Award.</td>
         </tr>
       
       </table>
@@ -265,8 +226,165 @@
 
     
       <div class="publications">
-  <h2>Selected Publications</h2>
-  <ol class="bibliography"><li><div class="row">
+  <h2 data-i18n="home.pubs">Selected Publications</h2>
+  <ol class="bibliography">
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    <img src="/BLOG/assets/teaser/emotional_preferences.png" class="teaser img-fluid z-depth-1">
+  
+  
+        
+            <abbr class="badge">arXiv</abbr>
+        
+  
+  </div>
+
+  <div id="liu2026emotional" class="col-sm-9">
+    
+      <div class="title">Emotional Preferences as Goal-Priority Regulation</div>
+      <div class="author">
+        Shiqi Liu, Yihua Tan, Hu Fu, and Guanyu Qi
+      </div>
+
+      <div class="periodical">
+      
+        <em>arXiv preprint arXiv:2608.27072</em>
+      
+      
+        (<b>arXiv</b>)
+      
+      
+      , 2026
+      
+      </div>
+    
+
+    <div class="links">
+    
+      
+      <a href="https://arxiv.org/pdf/2608.27072" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/647LiuSQ/Emotional_Preferences_as_Goal_Priority_Regulation" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+    </div>
+        <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>A core question in autonomous decision-making for artificial agents is whether the relative priorities of competing lower-level objectives can be determined by emotional preferences autonomously generated by higher-level goals, rather than being externally prespecified. Under changing external environments and evolving internal states, emotions play an important functional role in regulating the relative priorities of competing goals. Inspired by the goal-directed theory of emotion, this paper studies how such preference regulation can be computationally realized through reinforcement learning. To this end, we first propose a conception of emergent emotional preference: a high-level goal autonomously induces state-dependent preferences over competing lower-level objectives. This conception is built upon a framework consisting of a pretrained multi-objective reinforcement learning (MORL) inner controller and an outer preference generator. The inner controller provides a repertoire of preference-conditioned goal-directed behaviors, while the outer preference generator learns a mapping from the current state to objective preferences through reinforcement learning on a high-level goal. We operationalize emotional preference as a state-dependent regulation of relative goal priorities that emerges through optimization, rather than as predefined emotion labels or a complete model of human emotions. Furthermore, we characterize the policy space induced by preference regulation and derive an upper bound on the optimality gap in terms of the representation error of the inner behavioral repertoire. We show that the gap vanishes when the optimal policy can be represented by the available preference-conditioned policies, meaning that the policy space contains the optimal policy at the representational level. Experiments in self-constructed basic and advanced multi-objective exploration environments (Grid Fruit Tree Battery Exploration) show that the learned preference function exhibits contextual priority switching, graded trade-offs, and temporal persistence, and outperforms the evaluated fixed-preference and handcrafted-preference strategies. These results reveal a computational mechanism by which high-level goal optimization can induce state-dependent emotional preference and dynamically reorganize competing goal-directed behaviors.</p>
+    </div>
+    
+        <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">liu2026emotional</span><span class="p">,</span>
+  <span class="nl">title</span><span class="p">={</span>Emotional Preferences as Goal-Priority Regulation<span class="p">},</span>
+  <span class="nl">author</span><span class="p">={</span>Liu, Shiqi and Tan, Yihua and Fu, Hu and Qi, Guanyu<span class="p">},</span>
+  <span class="nl">journal</span><span class="p">={</span>arXiv preprint arXiv:2608.27072<span class="p">},</span>
+  <span class="nl">year</span><span class="p">={</span>2026<span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+
+
+
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    <img src="/BLOG/assets/teaser/Generalization.png" class="teaser img-fluid z-depth-1">
+  
+  
+        
+            <abbr class="badge">arXiv</abbr>
+        
+  
+  </div>
+
+  <div id="liu2023generalization" class="col-sm-9">
+    
+      <div class="title">Understanding Generalization via Set Theory</div>
+      <div class="author">
+        Shiqi Liu
+      </div>
+
+      <div class="periodical">
+      
+        <em>arXiv preprint arXiv:2311.06545</em>
+      
+      
+        (<b>arXiv</b>)
+      
+      
+      , 2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+      
+      <a href="https://arxiv.org/pdf/2311.06545" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+        <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Generalization is at the core of machine learning models. However, the definition of generalization is not entirely clear. We employ set theory to introduce the concepts of algorithms, hypotheses, and dataset generalization. We analyze the properties of dataset generalization and prove a theorem on surrogate generalization procedures. This theorem leads to our generalization method. Through a generalization experiment on the MNIST dataset, we obtain 13,541 sample bases. When we use the entire training set to evaluate the model's performance, the models achieve an accuracy of 99.945%. However, if we shift the sample bases or modify the neural network structure, the performance experiences a significant decline. We also identify consistently mispredicted samples and find that they are all challenging examples. The experiments substantiated the accuracy of the generalization definition and the effectiveness of the proposed methods. Both the set-theoretic deduction and the experiments help us better understand generalization.</p>
+    </div>
+    
+        <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">liu2023understanding</span><span class="p">,</span>
+  <span class="nl">title</span><span class="p">={</span>Understanding Generalization via Set Theory<span class="p">},</span>
+  <span class="nl">author</span><span class="p">={</span>Liu, Shiqi<span class="p">},</span>
+  <span class="nl">journal</span><span class="p">={</span>arXiv preprint arXiv:2311.06545<span class="p">},</span>
+  <span class="nl">year</span><span class="p">={</span>2023<span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+
+
+
+</div>
+</li>
+<li><div class="row">
   <div class="col-sm-3 abbr">
   
     <img src="/BLOG/assets/teaser/mastersurvey.jpg" class="teaser img-fluid z-depth-1">
@@ -2017,6 +2135,7 @@ VAE noise assumptions. On other fold, several generating factor properties in th
 
 <!-- Load Common JS -->
 <script src="/BLOG/assets/js/common.js"></script>
+<script src="/BLOG/assets/js/lang.js"></script>
 
 
 </html>

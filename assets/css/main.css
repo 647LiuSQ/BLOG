@@ -260,7 +260,7 @@ blockquote {
 }
 
 .social {
-  text-align: left;
+  text-align: center;
 }
 .social .contact-icons {
   font-size: 2rem;
@@ -593,6 +593,21 @@ d-appendix a, d-appendix a.footnote-backlink {
 }
 d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   color: var(--global-hover-color) !important;
+}
+
+#lang-toggle {
+  padding-left: 10px;
+  padding-top: 12px;
+  display: block;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+#lang-toggle:hover {
+  color: var(--global-hover-color);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
