@@ -631,4 +631,19 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   }
 }
 
+/* Prevent horizontal overflow on small screens */
+html,
+body {
+  overflow-x: hidden;
+}
+
+.publications ol.bibliography li .row > [class*="col-"] {
+  min-width: 0;
+}
+
+.publications ol.bibliography li .hidden pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
