@@ -1,0 +1,1624 @@
+{
+  "meta": {},
+  "ui": {},
+  "values": {
+    "支撑环节；是否为瓶颈取决于具体路线": "Supporting stage; whether it becomes a bottleneck depends on the specific route",
+    "产业演化推演；不是必然形成或盈利预测": "Industry-evolution reasoning; not a forecast that it will form or be profitable",
+    "国家／跨国／地球": "National / transnational / planetary",
+    "当代人＋未来世代": "Present and future generations",
+    "独立价值＋生命支持条件": "Intrinsic value plus life-support condition",
+    "与生态整体利益可能权衡": "May be traded off against overall ecological interest",
+    "兼具内在价值与实现作用": "Both intrinsic value and an enabling role",
+    "非人类主体地位需另行论证": "Status of non-human actors requires separate argument",
+    "不是人口或领土无限增长": "Not unlimited population or territorial growth",
+    "关注最低可接受水平": "Focus on minimum acceptable levels",
+    "贯穿各类目标的边界": "A boundary across all goal types",
+    "文化既是结果，也支持协作": "Culture is both an outcome and a support for cooperation",
+    "避免不可逆地封闭未来": "Avoid irreversibly closing off the future",
+    "个人至地球多尺度": "From individual to planetary scale",
+    "学校／企业／国家／跨国": "Schools / firms / states / transnational",
+    "家庭／组织／地方／国家": "Households / organizations / local / national",
+    "个人／社区／国家／文明": "Individual / community / state / civilization",
+    "国家／跨国／条件性地外主体": "National / transnational / conditional extraterrestrial actors",
+    "原始 FOREIGNPOLICY": "Original FOREIGNPOLICY",
+    "原始 WELFARE": "Original WELFARE",
+    "原始 ECONOMY": "Original ECONOMY",
+    "原始 TAX": "Original TAX",
+    "原始 PUBLICSERVICES": "Original PUBLICSERVICES",
+    "原始 LAWANDORDER": "Original LAWANDORDER",
+    "原始 TRANSPORT": "Original TRANSPORT",
+    "补充领域｜关联 O1／O3／O4／O5／O7": "Supplementary domain | linked to O1/O3/O4/O5/O7",
+    "补充领域｜关联 O2／O3／O5": "Supplementary domain | linked to O2/O3/O5",
+    "补充领域｜关联 O2／O3／O4／O7": "Supplementary domain | linked to O2/O3/O4/O7",
+    "补充领域｜关联 O2／O5／O6": "Supplementary domain | linked to O2/O5/O6",
+    "补充领域｜关联 O3／O5／O6": "Supplementary domain | linked to O3/O5/O6",
+    "补充领域｜贯穿七个原始类别": "Supplementary domain | spans all seven original categories",
+    "补充领域｜关联 O1／O3／O5": "Supplementary domain | linked to O1/O3/O5",
+    "责任主体＋适用边界": "Responsible actors plus scope",
+    "资源约束＋受益群体": "Resource constraints plus beneficiaries",
+    "地点＋责任人＋期限": "Location, responsible party and deadline",
+    "证据门槛＋调整条件": "Evidence gates plus revision conditions",
+    "识别阈值、损害与恢复能力": "Identify thresholds, harm and recovery capacity",
+    "群体身份可重叠，不重复计数": "Group identities may overlap; no double counting",
+    "避免局部改善造成整体损害": "Avoid local gains causing overall harm",
+    "价值相对稳定；路径持续纠错": "Values are relatively stable; paths are continuously corrected",
+    "非无限授权；权利边界仍有效": "Not unlimited authorization; rights boundaries still apply",
+    "不把最不利群体留在底线以下": "Do not leave the worst-off below the floor",
+    "长周期任务需要提前投入": "Long-cycle tasks require early investment",
+    "按阶段证据扩展投入": "Scale investment with stage-wise evidence",
+    "少量研究不等于现实紧迫任务": "Small research efforts are not urgent present tasks",
+    "底线约束下比较新增投入的效果": "Compare marginal returns under the floor constraint",
+    "约束所有 P 等级与政策行动": "Constrains every priority level and policy action",
+    "主体：个人、家庭与照护者": "Actors: individuals, households and carers",
+    "主体：社区组织、居民、社会组织": "Actors: community organizations, residents, civil society",
+    "主体：专业机构、企业与劳动者": "Actors: professional institutions, firms and workers",
+    "主体：地方政府、运营机构与公众": "Actors: local government, operators and the public",
+    "主体：公共机构、公众与全国性组织": "Actors: public institutions, the public and national bodies",
+    "主体：国家、国际组织、科研与社会网络": "Actors: states, international organizations, research and social networks",
+    "现实议题＋条件性扩展；多主体协商": "Present issues plus conditional extension; multi-actor negotiation",
+    "未来主体与可行路径待验证": "Future actors and viable paths remain unverified",
+    "高度推测；不预设集中统治": "Highly speculative; no centralized rule assumed",
+    "哲学与基础研究；非现成行政层级": "Philosophy and basic research; not an existing administrative level",
+    "依证据与处置窗口安排 P0—P2": "P0–P2 set by evidence and the response window",
+    "不同过程；不等于精确生存截止日": "Distinct processes; not an exact survival deadline",
+    "条件性收益；依赖地球的基地不等于备份": "Conditional benefit; an Earth-dependent base is not a backup",
+    "假说与远景 P4；不按既成威胁配置": "Hypothesis and long-range vision P4; not resourced as an established threat",
+    "现实压力；不把老年人视为危机本身": "Present pressure; older people are not the crisis itself",
+    "现实风险与情境推演并存": "Present risk alongside scenario reasoning",
+    "按具体应用 P1—P3": "P1–P3 by application",
+    "P1—P2": "P1–P2",
+    "P3": "P3",
+    "P2—P3": "P2–P3",
+    "分阶段 P1—P4": "Staged P1–P4",
+    "P2": "P2",
+    "P1—P2；临界风险 P0": "P1–P2; critical risk P0",
+    "P3—P4；依门槛调整": "P3–P4; adjusted by gates",
+    "P1—P2；紧迫风险 P0": "P1–P2; urgent risk P0",
+    "P2；紧迫安全任务可升级": "P2; urgent safety tasks may rise",
+    "保障 P1；改善 P2": "Protection P1; improvement P2",
+    "基本权利 P1；发展 P2": "Basic rights P1; development P2",
+    "验证 P3；遥远构想 P4": "Validation P3; distant visions P4",
+    "P1；制度改善 P2": "P1; institutional improvement P2",
+    "基本供给 P1；改善 P2": "Basic supply P1; improvement P2",
+    "保障 P1；制度优化 P2": "Protection P1; institutional optimization P2",
+    "基本服务 P1；能力 P2": "Basic services P1; capability P2",
+    "基本保障 P1；紧迫伤害 P0": "Basic protection P1; urgent harm P0",
+    "基本可达 P1；改善 P2": "Basic access P1; improvement P2",
+    "基础 P1；断供危机 P0": "Basics P1; supply crisis P0",
+    "基本居住 P1；改善 P2": "Basic shelter P1; improvement P2",
+    "基本权利与濒失保护 P1；发展 P2": "Basic rights and imminent-loss protection P1; development P2",
+    "关键保障 P1；能力 P2": "Key protection P1; capability P2",
+    "基本保障 P1；能力 P2": "Basic protection P1; capability P2",
+    "韧性 P2；地外验证 P3；远景 P4": "Resilience P2; off-world validation P3; long-range P4",
+    "P0": "P0",
+    "P1": "P1",
+    "P4": "P4",
+    "基本服务 P1；机制研究 P2—P3": "Basic services P1; mechanism research P2–P3",
+    "循证研究 P2—P3": "Evidence-based research P2–P3",
+    "供能保障 P1；技术组合 P2—P3": "Energy security P1; technology portfolio P2–P3",
+    "服务 P1；研究 P2—P3": "Services P1; research P2–P3",
+    "按证据与窗口 P0—P2": "P0–P2 by evidence and window",
+    "基础韧性 P1—P2；危机 P0": "Baseline resilience P1–P2; crisis P0",
+    "依据具体风险 P0—P2": "P0–P2 by specific risk",
+    "安全与纠错 P1—P2": "Safety and correction P1–P2",
+    "基本权益 P1；制度适应 P2": "Basic entitlements P1; institutional adaptation P2",
+    "P2；关键服务依任务": "P2; key services by task",
+    "P2；现场关键任务 P1": "P2; critical field tasks P1",
+    "应用 P1；研发 P2—P3": "Applications P1; R&D P2–P3",
+    "医疗保障 P1；研发 P2—P3": "Medical care P1; R&D P2–P3",
+    "P2—P3；跨恒星 P4": "P2–P3; interstellar P4",
+    "P1—P2；地外 P3": "P1–P2; off-world P3",
+    "国家／跨国｜政府、国际组织、社会组织": "National / transnational | governments, international organizations, civil society",
+    "家庭至国家｜公共部门、社区、照护组织": "Household to national | public sector, communities, care organizations",
+    "组织／地方／国家｜企业、劳动者、政府": "Organizations / local / national | firms, workers, government",
+    "地方／国家｜财政税务部门、公众": "Local / national | finance and tax authorities, the public",
+    "社区至国家｜学校、医院、科研文化机构": "Community to national | schools, hospitals, research and cultural institutions",
+    "个人至国家｜司法、执法、法律援助与公众": "Individual to national | judiciary, law enforcement, legal aid and the public",
+    "社区／城市／区域｜交通部门、运营者": "Community / city / region | transport authorities, operators",
+    "流域／国家／地球｜环境部门、企业、社区": "Watershed / national / planetary | environmental agencies, firms, communities",
+    "家庭至跨国｜供给企业、公共部门、居民": "Household to transnational | suppliers, public sector, residents",
+    "家庭／社区／城市｜住房规划部门、居民": "Household / community / city | housing and planning agencies, residents",
+    "个人至文明｜创作者、学校、社区、文化机构": "Individual to civilization | creators, schools, communities, cultural institutions",
+    "个人至跨国｜平台、研究者、监管者、公众": "Individual to transnational | platforms, researchers, regulators, the public",
+    "地方至跨国｜公共机构、公众、社会组织": "Local to transnational | public institutions, the public, civil society",
+    "国家／跨国／未来栖居地｜科研与治理主体": "National / transnational / future habitats | research and governance actors",
+    "既有产业／公共能力需升级": "Existing industry / public capacity needs upgrading",
+    "组合路线；按节点证据分阶段推进": "Portfolio route; staged by node-level evidence",
+    "实验研究": "Experimental research",
+    "成长方向": "Growth direction",
+    "已有产业升级": "Upgrading existing industry",
+    "既有产业升级": "Upgrading existing industry",
+    "已有应用／持续验证": "Deployed applications / ongoing validation",
+    "已有应用／通用能力研发": "Deployed applications / general-capability R&D",
+    "临床研究／适应证分化": "Clinical research / differentiated indications",
+    "部分产业化／持续研发": "Partly industrialized / ongoing R&D",
+    "实验／转化研究": "Experimental / translational research",
+    "研发／试点": "R&D / pilots",
+    "研究／部分检测应用": "Research / some testing applications",
+    "临床前／部分临床研究": "Preclinical / some clinical research",
+    "早期转化／大量研究未决": "Early translation / much research unresolved",
+    "适应证分化；部分成熟、部分研发": "Indications diverge; some mature, some in R&D",
+    "已有服务／持续改进": "Existing services / continuous improvement",
+    "实验与示范研发": "Experimental and demonstration R&D",
+    "实验与工程研发": "Experimental and engineering R&D",
+    "关键瓶颈研发": "R&D on critical bottlenecks",
+    "已有产业／持续升级": "Existing industry / continuous upgrading",
+    "部分成熟／前沿研发": "Partly mature / frontier R&D",
+    "地面应用／地外验证": "Terrestrial use / off-world validation",
+    "已有子系统／集成验证": "Existing subsystems / integration validation",
+    "已有服务／场景验证": "Existing services / scenario validation",
+    "既有航天／长期栖居研发": "Existing spaceflight / long-duration habitat R&D",
+    "已有方法／持续研发": "Existing methods / ongoing R&D",
+    "已有能力／韧性扩展": "Existing capacity / resilience extension",
+    "部分产业化／场景验证": "Partly industrialized / scenario validation",
+    "既有服务升级": "Upgrading existing services",
+    "研发型新赛道": "R&D-intensive new track",
+    "已有产业与条件性扩展": "Existing industry with conditional extension",
+    "临床转化／成长方向": "Clinical translation / growth direction",
+    "成长／验证方向": "Growth / validation direction",
+    "条件性远景": "Conditional long-range vision",
+    "研发／转化方向": "R&D / translation direction",
+    "研发供应链／成长方向": "R&D supply chain / growth direction",
+    "依赖重大工程突破": "Depends on major engineering breakthroughs",
+    "既有产业重构／条件性扩展": "Restructuring existing industry / conditional extension",
+    "地面试点／地外条件性扩展": "Terrestrial pilots / conditional off-world extension",
+    "条件性成长方向": "Conditional growth direction",
+    "已有活动与扩展方向": "Existing activity and expansion direction",
+    "既有备份服务向韧性扩展": "Existing backup services extending into resilience",
+    "既有产业与制度重构": "Restructuring existing industry and institutions",
+    "质量、规模、专业人才与可替代供应；不以单一企业或来源为唯一保障。": "Quality, scale, skilled people and substitutable supply; no single firm or source is the only safeguard.",
+    "定义基线、门槛、投入、退出条件和分配结果；不以远期价值替代现实证据。": "Define baselines, thresholds, investment, exit conditions and distributional outcomes; long-range value must not replace present evidence.",
+    "跨环境验证、概率校准、失效可恢复": "Cross-environment validation, probability calibration, recoverable failure",
+    "长期可靠运行、能源与零件保障": "Long-term reliable operation, energy and spare-part supply",
+    "长期稳定、安全与可负担性": "Long-term stability, safety and affordability",
+    "活性维持、寿命、控制与一致性": "Viability maintenance, lifetime, control and consistency",
+    "功能可控、标准制造、体内外安全": "Controllable function, standard manufacturing, in vitro and in vivo safety",
+    "功能稳定、污染控制、放大与追溯": "Stable function, contamination control, scale-up and traceability",
+    "在实际环境中验证可靠性与清除": "Validate reliability and clearance in real environments",
+    "读写成本、解码方法与设备可得性": "Read/write cost, decoding methods and equipment availability",
+    "跨人群验证、真实结局关联与隐私": "Cross-population validation, links to real outcomes and privacy",
+    "长期安全、真实获益与适用人群": "Long-term safety, real benefit and eligible population",
+    "长期安全、组织特异性与功能证据": "Long-term safety, tissue specificity and functional evidence",
+    "功能成熟、质量控制、长期安全与可及": "Mature function, quality control, long-term safety and access",
+    "真实人群结果、可及性与服务质量": "Real-world population outcomes, access and service quality",
+    "物理性能→整厂净电力→可靠性→成本": "Physics performance → plant net electricity → reliability → cost",
+    "驱动效率、重复性、靶制造与整厂集成": "Driver efficiency, repeatability, target manufacturing and plant integration",
+    "材料寿命、燃料可持续供给、可用率": "Material lifetime, sustainable fuel supply, availability",
+    "可靠、经济、可维护的系统组合": "A reliable, economic and maintainable system portfolio",
+    "性能、批量制造、寿命与全流程成本": "Performance, mass manufacturing, lifetime and full-process cost",
+    "关键零件、原料和检验体系能否闭合": "Whether critical parts, feedstock and inspection systems can close",
+    "长时稳定、物质平衡、微生物与故障控制": "Long-term stability, mass balance, microbial and fault control",
+    "生态结果、持续性与群体影响": "Ecological outcomes, durability and population effects",
+    "运输之外的完整生活与工业支持": "Complete living and industrial support beyond transport",
+    "独立评估、真实事件反馈与责任清晰": "Independent evaluation, real-incident feedback and clear accountability",
+    "能够读取、理解、验证并应用": "Can be read, understood, verified and applied",
+    "资源效率、食品安全、成本与饮食接受": "Resource efficiency, food safety, cost and dietary acceptance",
+    "终点有效、长期结果与公平可及；不能用时钟分数包装延寿承诺。": "Valid endpoints, long-term outcomes and equitable access; clock scores must not be used to wrap longevity promises.",
+    "安全与真实健康获益通过验证后，才可扩展适应证或服务。": "Expand indications or services only after safety and real health benefit are validated.",
+    "具体组织功能和适应证逐项验证；完整器官替换另需突破。": "Validate specific tissue functions and indications one by one; whole-organ replacement needs separate breakthroughs.",
+    "长期稳定、神经数据保护、可退出和可负担。": "Long-term stability, neural data protection, exitability and affordability.",
+    "按长期可用率和恢复表现交付，保留人工接管。": "Deliver on long-term availability and recovery performance, retaining human takeover.",
+    "实验可重复、数据可信、用途与生物安全边界。": "Reproducible experiments, trustworthy data, and boundaries for use and biosafety.",
+    "放大、产率、污染控制与全生命周期成本。": "Scale-up, yield, contamination control and full life-cycle cost.",
+    "证明特定任务优势、可控性、批次一致性与安全。": "Demonstrate task-specific advantage, controllability, batch consistency and safety.",
+    "临床或实际环境中的可靠效果；非普遍成熟疗法。": "Reliable effects in clinical or real-world settings; not a generally mature therapy.",
+    "不同路线分别核验；可先形成部件与测试需求。": "Verify each route separately; component and testing demand can form first.",
+    "整厂净发电、燃料可持续供给、可用率、成本及许可均需通过。": "Plant net electricity, sustainable fuel supply, availability, cost and licensing must all pass.",
+    "只有交付能源的成本与可靠性合适才形成优势；不专属聚变。": "An advantage exists only if delivered energy is affordable and reliable; not unique to fusion.",
+    "关键原料、工具、检验和零件链条能够持续维持。": "Critical feedstock, tools, inspection and spare-part chains can be sustained.",
+    "长时稳定、损失补偿、故障隔离与真实补给依赖。": "Long-term stability, loss compensation, fault isolation and actual resupply dependence.",
+    "需求、运输、资源条件、维修能力与空间规则共同成立。": "Demand, transport, resource conditions, maintenance capability and space rules must all hold.",
+    "产品价值、运输经济性、安全和任务可靠性逐项验证。": "Validate product value, transport economics, safety and mission reliability item by item.",
+    "数据可读、技能可传、设备可造；避免把档案等同完整文明。": "Data readable, skills transferable, equipment buildable; an archive is not a whole civilization.",
+    "可信独立、证据可核查；风险分担依赖真实数据。": "Credibly independent, verifiable evidence; risk sharing depends on real data.",
+    "根据实际健康、寿命与劳动变化调整，不能预设延寿一定减少照护成本。": "Adjust to actual changes in health, lifespan and work; do not assume longevity lowers care costs.",
+    "以真实生态与社区结果评价，防止只优化易测代理指标。": "Judge by real ecological and community outcomes; do not optimize only easily measured proxies.",
+    "需要技术、需求、成本、制度与主体接受共同成立。": "Requires technology, demand, cost, institutions and actor acceptance to hold together.",
+    "降低单点风险需要物质、工业、知识与治理上的真实独立；分散地点仍可能共享软件、供应链和制度性风险。": "Reducing single-point risk requires real material, industrial, knowledge and governance independence; dispersed sites may still share software, supply chains and institutional risks.",
+    "生物年龄时钟变化不能自动替代真实健康结局。": "Changes in biological-age clocks cannot automatically replace real health outcomes.",
+    "动物延寿不等于人类延寿；不设无证据的寿命年数承诺。": "Extended lifespan in animals does not mean extended human lifespan; no unsupported promises of added years.",
+    "若延寿收益高度集中，可能加剧财富、权力和机会差距。": "If longevity gains are highly concentrated, wealth, power and opportunity gaps may widen.",
+    "聚变是候选路线之一；现有清洁能源、储能、电网与效率改进仍需投入。": "Fusion is one candidate route; existing clean energy, storage, grids and efficiency improvements still need investment.",
+    "模型预测不能替代真实实验，也不能把单一模型当作唯一决策依据。": "Model predictions cannot replace real experiments, and no single model should be the sole basis for decisions.",
+    "任务演示不等于长期自主；应评估运行时长、人工接管与恢复能力。": "A task demo is not long-term autonomy; assess operating hours, human takeover and recovery.",
+    "沟通或光标控制证据不等于普遍读心、完整记忆转移或意识上传。": "Evidence of communication or cursor control is not general mind reading, full memory transfer or mind uploading.",
+    "生物组织可能提供特定功能，但不自动优于机械系统。": "Biological tissue may provide specific functions but is not automatically superior to mechanical systems.",
+    "局部实验行为不等于通用生物机器人；不预设意识或通用智能。": "Local experimental behaviour is not a general biobot; no consciousness or general intelligence is assumed.",
+    "DNA 序列设计并不保证复杂生命行为可精确预测。": "Designing DNA sequences does not guarantee that complex living behaviour can be precisely predicted.",
+    "DNA 装置不一定是生命，也不必涉及基因修改。": "DNA devices are not necessarily alive and need not involve genetic modification.",
+    "保存数据不等于保存理解与重建能力，应采用多介质备份。": "Storing data is not preserving understanding and the ability to rebuild; use multi-medium backups.",
+    "时钟分数降低不自动证明健康寿命或总寿命延长。": "A lower clock score does not by itself prove longer healthspan or lifespan.",
+    "动物结果不能直接外推人类；衰老细胞存在有益作用，不能简单追求全部清除。": "Animal results do not transfer directly to humans; senescent cells have beneficial roles, so total clearance is not a simple goal.",
+    "特定动物组织结果不等于全身返老还童；需关注细胞身份与肿瘤等风险。": "Results in specific animal tissues are not whole-body rejuvenation; watch cell identity and tumour risks.",
+    "具体适应证证据不能泛化为全身抗衰或完整器官任意替换。": "Evidence for specific indications cannot be generalized to whole-body anti-aging or arbitrary organ replacement.",
+    "已有医疗与公共卫生保障不应等待远期延寿突破。": "Existing medical and public-health protection should not wait for distant longevity breakthroughs.",
+    "等离子体增益不等于电站净发电；不承诺商业化日期。": "Plasma gain is not plant net electricity; no commercialization date is promised.",
+    "单次实验增益不能替代连续电站的能量与成本核算。": "A single-shot experimental gain cannot replace continuous plant energy and cost accounting.",
+    "不同路线依赖不同；氘氚路线尤其要验证燃料自持与管理。": "Routes have different dependencies; the deuterium–tritium route especially must prove fuel self-sufficiency and handling.",
+    "聚变进展不应成为延迟现实清洁供能和效率改进的理由。": "Fusion progress must not become a reason to delay real clean-energy deployment and efficiency improvements.",
+    "材料性能提升需同时核算制造、维护和环境代价。": "Material performance gains must be accounted together with manufacturing, maintenance and environmental costs.",
+    "单项制氧或加工演示不等于自主工业体系。": "A single oxygen-generation or processing demo is not an autonomous industrial system.",
+    "物质循环仍需能源并存在损失；不预设完全封闭或永久自给。": "Material cycles still need energy and lose material; neither full closure nor permanent self-sufficiency is assumed.",
+    "资源开发和修复工程需评估全生命周期影响。": "Resource development and restoration works need full life-cycle impact assessment.",
+    "到达另一星球不等于能够独立延续文明。": "Reaching another planet is not independently sustaining a civilization.",
+    "性能与安全要同时检验；统一系统可能带来相关失效。": "Performance and safety must be tested together; unified systems can fail in correlated ways.",
+    "只保存数据不足以保证灾后重建；需要人、组织与工业工具。": "Storing data alone cannot ensure post-disaster rebuilding; people, organizations and industrial tools are needed.",
+    "粮食安全不能只依赖单一作物、菌株、设备或供应商。": "Food security cannot rest on a single crop, strain, facility or supplier.",
+    "无失能生存、疾病负担、生活质量、功能维持；按群体分层。": "Disability-free survival, disease burden, quality of life and functional maintenance; stratified by group.",
+    "长期生存与不良事件；区分平均寿命、健康寿命和极端寿命。": "Long-term survival and adverse events; distinguish average lifespan, healthspan and extreme longevity.",
+    "独立生活、照护负担、可负担性、群体差距、参与机会。": "Independent living, care burden, affordability, group gaps and participation opportunities.",
+    "交付电力、可靠性、全系统成本、生命周期环境影响。": "Delivered electricity, reliability, whole-system cost and life-cycle environmental impact."
+  },
+  "edgeTypes": {
+    "分解": "decomposes into",
+    "促进": "promotes",
+    "反馈": "feeds back to",
+    "落实": "implemented by",
+    "约束": "constrains",
+    "前提": "prerequisite for",
+    "权衡": "trade-off with",
+    "需求": "demands",
+    "供给": "supplies",
+    "演化": "evolves into",
+    "贡献": "contributes to",
+    "支撑": "supports",
+    "风险": "risks",
+    "缓解": "mitigates",
+    "组合": "combined in"
+  },
+  "edgeLabels": {
+    "提供部件、服务或制度能力": "Provides components, services or institutional capacity",
+    "分解": "Decomposes into",
+    "组合路线中的关联节点": "Linked node in the portfolio route",
+    "通过具体服务改善目标": "Improves the goal through concrete services",
+    "联合提供关键能力": "Jointly provides critical capability",
+    "增强实现目标的能力": "Strengthens the capability to achieve the goal",
+    "可能促成产业升级或新服务": "May enable industrial upgrading or new services",
+    "监测与评价": "Monitoring and evaluation",
+    "前沿研究与分阶段验证": "Frontier research and staged validation",
+    "基本权利、安全、责任与公平": "Basic rights, safety, responsibility and fairness",
+    "可信验证与标准": "Trustworthy validation and standards",
+    "辅助预测、设计与控制": "Assists prediction, design and control",
+    "调整行动组合": "Adjusts the action portfolio",
+    "权利、公平、不可逆伤害边界": "Boundaries of rights, fairness and irreversible harm",
+    "国家保障与协调": "State protection and coordination",
+    "制造与质量体系": "Manufacturing and quality systems",
+    "健康与照护压力形成研究及服务需求": "Health and care pressure creates research and service demand",
+    "自主维护与替代供应需求": "Demand for autonomous maintenance and substitute supply",
+    "长期能力与验证投入": "Long-term capability and validation investment",
+    "调整资源与措施": "Adjusts resources and measures",
+    "个人与家庭参与": "Individual and household participation",
+    "社区发现需求与协作": "Communities identify needs and cooperate",
+    "地方统筹与运行": "Local coordination and operation",
+    "共同风险与公共产品": "Shared risks and public goods",
+    "提出适应与保障需求": "Raises adaptation and protection needs",
+    "临床与长期服务网络": "Clinical and long-term service networks",
+    "长周期投资与阶段退出机制": "Long-cycle investment and staged exit",
+    "适应、修复与供给保障需求": "Adaptation, repair and supply-security needs",
+    "卫生响应与可控生物应用需求": "Health response and controlled biological application needs",
+    "检验全系统成本和外部性": "Tests whole-system cost and externalities",
+    "更新证据与阶段判断": "Updates evidence and stage judgements",
+    "工程与服务实施": "Engineering and service delivery",
+    "机构与企业实施": "Implemented by institutions and firms",
+    "国家科研、监管与保障": "National research, regulation and protection",
+    "组织实施与责任": "Organizational delivery and responsibility",
+    "优先弥补基本缺口": "Prioritizes closing basic gaps",
+    "持续能力建设": "Continuous capacity building",
+    "条件性研究": "Conditional research",
+    "提出健康与功能需求": "Raises health and function needs",
+    "提出供给与恢复需求": "Raises supply and recovery needs",
+    "提出安全与去单点依赖需求": "Raises safety needs and the need to avoid single points of failure",
+    "提出公平转型与协作需求": "Raises needs for a fair transition and cooperation",
+    "提高认知与决策能力": "Improves cognition and decision capability",
+    "建设与可靠运行": "Construction and reliable operation",
+    "维持生命与栖居": "Sustains life and habitation",
+    "支持持续供给": "Supports continuous supply",
+    "降低外部依赖": "Reduces external dependence",
+    "改善健康与功能": "Improves health and function",
+    "保留重建能力": "Preserves rebuilding capacity",
+    "维持公平与协作": "Maintains fairness and cooperation",
+    "人才、照护与职业转型": "Talent, care and career transition",
+    "可信、安全、恢复与协作需求": "Needs for trust, safety, recovery and cooperation",
+    "公平与制度适应需求": "Needs for fairness and institutional adaptation",
+    "极长期栖居与迁移研究动因": "Motivation for very-long-term habitation and migration research",
+    "条件性的核验、沟通与韧性需求": "Conditional needs for verification, communication and resilience",
+    "人口与生命周期变化的条件性压力": "Conditional pressure from demographic and life-course change",
+    "公平可及与主体自主": "Equitable access and actor autonomy",
+    "用真实结果检验目标达成": "Tests goal achievement against real outcomes",
+    "试验与能力建设": "Trials and capacity building",
+    "个人选择与家庭支持": "Individual choice and household support",
+    "跨国科研与共同风险": "Transnational research and shared risk",
+    "空间活动与协商": "Space activity and negotiation",
+    "保障现实基本需求": "Secures basic present needs",
+    "非人类利益纳入评价": "Includes non-human interests in evaluation",
+    "太阳系活动规则": "Rules for solar-system activity",
+    "条件性跨恒星自治": "Conditional interstellar autonomy",
+    "针对风险配置韧性": "Allocates resilience against risk",
+    "提出卫生与治理需求": "Raises health and governance needs",
+    "文化、档案与学习": "Culture, archives and learning",
+    "部分路线的生物功能设计": "Biological function design for some routes",
+    "失效扩散与收益集中": "Failure propagation and concentrated gains",
+    "失控、污染或生态外部性": "Loss of control, contamination or ecological externalities",
+    "降低风险并限制失效传播": "Reduces risk and limits failure propagation",
+    "检验分配与代际影响": "Examines distributional and intergenerational effects",
+    "规则与公共协作": "Rules and public cooperation",
+    "地方运行与生态结果": "Local operation and ecological outcomes",
+    "识别缺口与窗口": "Identifies gaps and windows",
+    "更新分配判断": "Updates distributional judgements",
+    "更新成本与副作用": "Updates cost and side-effect judgements",
+    "更新证据与路径": "Updates evidence and path",
+    "生命支持条件": "Life-support conditions",
+    "环境质量": "Environmental quality",
+    "文化意义": "Cultural meaning",
+    "学习与创造": "Learning and creation",
+    "降低毁灭性冲突": "Reduces destructive conflict",
+    "个体福祉与生态整体": "Individual welfare and the ecological whole",
+    "教育与科学能力": "Education and scientific capability",
+    "技术与生产能力": "Technological and production capability",
+    "健康与劳动能力": "Health and labour capability",
+    "形成公共筹资基础": "Forms the basis for public financing",
+    "公共服务资金": "Public service funding",
+    "基本保障资金": "Basic protection funding",
+    "医疗与公共卫生": "Healthcare and public health",
+    "生活保障": "Livelihood security",
+    "部分生产方式造成生态压力": "Some production methods create ecological pressure",
+    "长期资源与生态支持": "Long-term resource and ecological support",
+    "环境与健康": "Environment and health",
+    "降低资源消耗的可能": "Potential to lower resource consumption",
+    "实施与纠错能力": "Implementation and correction capability",
+    "信任与协作": "Trust and cooperation",
+    "文化参与条件": "Conditions for cultural participation",
+    "能源、食物与供水": "Energy, food and water supply",
+    "服务可达性": "Service accessibility",
+    "安全居住": "Safe shelter",
+    "治安措施的权利边界": "Rights boundaries of security measures",
+    "筹资与分配公平": "Financing and fair distribution",
+    "条件性文明协调": "Conditional civilizational coordination",
+    "基础认知与保存": "Basic cognition and preservation",
+    "长期迁移研究动因": "Motivation for long-term migration research",
+    "独立生存与低相关风险": "Independent survival and low correlated risk",
+    "有条件增加备份能力": "Conditionally adds backup capability",
+    "证据不足的情境研究": "Scenario research with insufficient evidence",
+    "条件性接触规则": "Conditional contact rules",
+    "仅限可信紧迫风险": "Only for credible, urgent risks",
+    "分阶段验证": "Staged validation",
+    "维持学习与参与机会": "Maintains learning and participation opportunities",
+    "维持关系与社会意义": "Maintains relationships and social meaning",
+    "有待长期验证的寿命贡献": "Lifespan contribution pending long-term validation",
+    "若供能经济性成立，可形成新的系统组合": "If energy economics hold, a new system combination could form",
+    "提供可选人机交互通道": "Provides an optional human–machine channel",
+    "支持远程检查与维护": "Supports remote inspection and maintenance",
+    "自动化实验与生产操作": "Automated experiments and production operations",
+    "可靠测量帮助评价干预": "Reliable measurement helps evaluate interventions",
+    "结果验证与长期随访": "Outcome validation and long-term follow-up",
+    "适应证获益可改善健康寿命": "Indication-level benefit can improve healthspan",
+    "减少可避免失能": "Reduces avoidable disability",
+    "生命支持需要持续供能": "Life support requires continuous energy",
+    "维持设备与关键零件": "Maintains equipment and critical parts",
+    "神经隐私、自主与接入不平等": "Neural privacy, autonomy and unequal access",
+    "潜在副作用与误用": "Potential side effects and misuse",
+    "长期安全和细胞状态风险": "Long-term safety and cell-state risks",
+    "需核算材料、水与全生命周期环境代价": "Requires accounting for materials, water and full life-cycle environmental cost",
+    "分阶段筹资与采购": "Staged financing and procurement",
+    "条件性远期扩展": "Conditional long-range extension",
+    "跨恒星活动的条件性研究": "Conditional research on interstellar activity"
+  },
+  "sections": {
+    "values": {
+      "title": "L1 · Ultimate values",
+      "note": "Parallel values; human well-being is the main thread, with no single total score"
+    },
+    "outcomes": {
+      "title": "L2 · Basic outcomes",
+      "note": "Survival, living, dignity, meaning and future opportunity"
+    },
+    "strategies": {
+      "title": "L3 · Civilizational strategies",
+      "note": "The seven original strategies keep multiple affiliations"
+    },
+    "domains": {
+      "title": "L4–L5 · Governance domains and sub-goals",
+      "note": "O1–O7 are the original game categories; X1–X7 are supplementary domains"
+    },
+    "subgoals": {
+      "title": "L5 · Added health and energy goals",
+      "note": "Healthspan, total lifespan, actor autonomy and reliable energy are assessed separately"
+    },
+    "crises": {
+      "title": "Crises and demands",
+      "note": "Present pressures, systemic risks and hypothetical scenarios are handled separately"
+    },
+    "capabilities": {
+      "title": "Enabling capabilities",
+      "note": "Connect technology to goals; capability alone does not equal well-being"
+    },
+    "technologies": {
+      "title": "Key technology directions",
+      "note": "Maturity is judged per application; priority is not technological sophistication"
+    },
+    "industries": {
+      "title": "Supporting industries and public capacity",
+      "note": "Components, services, talent, validation, capital and institutions all support"
+    },
+    "emerging": {
+      "title": "Industry evolution directions",
+      "note": "Upgrades of existing industries, growth directions and conditional long-range visions are labelled separately"
+    },
+    "missions": {
+      "title": "Six portfolio routes",
+      "note": "Observe industrial dependence, goal contribution and side effects at once"
+    },
+    "actions": {
+      "title": "L6 · Policy and action",
+      "note": "Resources, actors, deadlines and staged exit conditions"
+    },
+    "feedback": {
+      "title": "L7 · Metrics and feedback",
+      "note": "Real outcomes, distribution, cost and evidence updates"
+    },
+    "priority": {
+      "title": "Cross-layer · Dynamic priorities and constraints",
+      "note": "P0–P4 arrange action; rights and fairness run through the whole map"
+    },
+    "scales": {
+      "title": "Orthogonal · Scale, scope and actors",
+      "note": "Scale is not a value hierarchy; responsibility matches resources and capability"
+    },
+    "horizon": {
+      "title": "Long-term survival and conditional boundaries",
+      "note": "Solar evolution, multi-site habitation and alien scenarios keep their original distinctions"
+    }
+  },
+  "topics": {
+    "all": {
+      "title": "Everything",
+      "description": "The complete network of values, goals, crises, technologies, industries, actions, feedback and scales."
+    },
+    "aging": {
+      "title": "Healthspan and delaying ageing",
+      "description": "From health and autonomy needs, trace measurement, mechanistic intervention, clinical manufacturing and long-lived-society services; animal and biomarker evidence does not directly equal human lifespan extension."
+    },
+    "fusion": {
+      "title": "Controllable fusion and the energy industry",
+      "description": "Component and validation industries can move first; fusion power and heat must pass net-electricity, fuel, materials, availability and cost gates. Other clean supply paths proceed in parallel."
+    },
+    "ai-bio": {
+      "title": "AI, brain–computer interfaces and biotechnology",
+      "description": "AI, embodied intelligence, brain–computer interfaces and biotechnology are composable capabilities, not one inevitable sequence of technological progress."
+    },
+    "habitat": {
+      "title": "Earth habitability and off-world habitation",
+      "description": "The value of migration and dispersion depends on continuous energy, life support, industrial maintenance and cooperation; reaching another planet is not forming an independent civilization."
+    },
+    "recovery": {
+      "title": "Civilizational recovery and unknown crises",
+      "description": "Preserve data, skills, reading methods and rebuildable production; alien invasion appears only as an unconfirmed conditional scenario."
+    },
+    "industry": {
+      "title": "Technology and industry evolution",
+      "description": "Supporting industries provide inputs; technologies improve services and industrial upgrading; new industries must satisfy technology, demand, cost and institutional conditions at once."
+    },
+    "original": {
+      "title": "Original values and governance frame",
+      "description": "Retains all 60 original nodes and 185 relations; technologies and industries are added as an implementation dimension connected to them."
+    }
+  },
+  "sources": {
+    "age-itp": {
+      "title": "NIA: Interventions Testing Program (mice)",
+      "note": "The subjects are mice; human lifespan extension cannot be inferred directly."
+    },
+    "age-sennet": {
+      "title": "NIH SenNet: roles of cellular senescence and translation challenges",
+      "note": "Senescent cells have context-dependent beneficial and harmful roles; human translation needs validation."
+    },
+    "age-biomarker": {
+      "title": "NIA: ageing proteomics and biomarker research",
+      "note": "Biomarker research informs mechanisms, risk and interventions; it is not a validated surrogate endpoint for lifespan."
+    },
+    "age-reprogram": {
+      "title": "Nature 2020: reprogramming in mouse retina",
+      "note": "Results in a specific tissue and animal model are not evidence of whole-body human rejuvenation."
+    },
+    "fusion-iter": {
+      "title": "ITER: scientific and engineering challenges of fusion energy",
+      "note": "Superconductors, vacuum, cryogenics, materials, heat exhaust, maintenance and the fuel cycle require system integration."
+    },
+    "fusion-gaps": {
+      "title": "ITER: gaps still to close on the way to a fusion plant",
+      "note": "Fuel self-sufficiency, reliability, materials and high availability are plant-level challenges."
+    },
+    "fusion-electric": {
+      "title": "ITER: from neutron energy to electricity",
+      "note": "ITER does not generate electricity itself; experimental gain and plant net electricity must be distinguished."
+    },
+    "ai-af3": {
+      "title": "Nature 2024: AlphaFold 3",
+      "note": "Supports structure prediction for specific biomolecules; it cannot replace experimental and clinical validation."
+    },
+    "ai-weather": {
+      "title": "Nature 2024: probabilistic weather forecasting",
+      "note": "Demonstrates probabilistic forecasting capability; generalization across environments still needs testing."
+    },
+    "bci": {
+      "title": "Nature Medicine 2026: long-term independent use of a brain–computer interface",
+      "note": "Communication and cursor control in individual studies are not general mind reading or mind uploading."
+    },
+    "biobot": {
+      "title": "PNAS 2020: computationally designed living constructs",
+      "note": "Experimental validation of specific cellular constructs and behaviours; general application still requires research."
+    },
+    "dna-switch": {
+      "title": "Nature 2000: synthetic genetic switches",
+      "note": "Specific gene circuits can achieve regulatory functions; this does not mean all of life can be programmed at will."
+    },
+    "dna-nano": {
+      "title": "Science 2012: logic-responsive DNA molecular devices",
+      "note": "Proof of concept; it cannot be extrapolated directly into a mature clinical therapy."
+    },
+    "dna-store": {
+      "title": "Scientific Reports 2019: automated DNA data storage",
+      "note": "The experimental system validated writing, storage and reading; scale, cost and readability still matter."
+    },
+    "space-bio": {
+      "title": "NASA: bioengineering and life support",
+      "note": "Covers air, water, waste and biomanufacturing; it does not represent a fully self-sufficient off-world ecosystem."
+    },
+    "moxie": {
+      "title": "NASA: the MOXIE Mars oxygen experiment",
+      "note": "Validates one in-situ resource utilisation technology; it does not represent a complete industrial loop."
+    },
+    "robotics": {
+      "title": "NASA: autonomous systems and robotics",
+      "note": "Practical uses and directions for robotic exploration and autonomous operation."
+    },
+    "ai-risk": {
+      "title": "NIST: AI risk management framework",
+      "note": "Trustworthiness must span design, use, evaluation and governance."
+    },
+    "sun": {
+      "title": "NASA: solar evolution",
+      "note": "The Sun becomes a red giant in about five billion years, distinct from earlier habitability changes."
+    },
+    "oxygen": {
+      "title": "Nature Geoscience 2021: model of Earth's oxygen-rich atmosphere lifetime",
+      "note": "A billion-year-scale model result, not a precise deadline for human survival."
+    },
+    "alien": {
+      "title": "NASA: statement on extraterrestrial life and UAP evidence",
+      "note": "No alien civilization invasion threat is confirmed; related routes are conditional scenarios."
+    }
+  },
+  "nodes": {
+    "V1": {
+      "title": "Human well-being",
+      "body": [
+        "Safety, health and a dignified life",
+        "Genuine choice and opportunities to develop"
+      ]
+    },
+    "V2": {
+      "title": "Ecological flourishing",
+      "body": [
+        "Biodiversity and ecological integrity",
+        "Recovery capacity and room for continued evolution"
+      ]
+    },
+    "V3": {
+      "title": "Well-being of sentient life",
+      "body": [
+        "Reduce suffering among non-human life",
+        "Secure suitable living conditions"
+      ]
+    },
+    "V4": {
+      "title": "Continuity of knowledge and culture",
+      "body": [
+        "Curiosity, creation and cultural diversity",
+        "Preserve irreplaceable knowledge heritage"
+      ]
+    },
+    "V5": {
+      "title": "Coexistence of civilizations and autonomous actors",
+      "body": [
+        "Peaceful negotiation and autonomous development",
+        "Avoid mutual destruction and domination"
+      ]
+    },
+    "R1": {
+      "title": "Survival and safety",
+      "body": [
+        "Continuity of life and a recoverable civilization",
+        "Reduce harm from disaster and violence"
+      ]
+    },
+    "R2": {
+      "title": "Health and basic living",
+      "body": [
+        "Food, water, housing and care",
+        "Physical and mental health plus environmental quality"
+      ]
+    },
+    "R3": {
+      "title": "Dignity, freedom and fairness",
+      "body": [
+        "Basic rights and autonomous choice",
+        "Fair opportunity, process and distribution"
+      ]
+    },
+    "R4": {
+      "title": "Relationships, culture and meaning",
+      "body": [
+        "Social ties, belonging and trust",
+        "Cultural participation and a meaningful life"
+      ]
+    },
+    "R5": {
+      "title": "Capability and future opportunity",
+      "body": [
+        "Learning, creating, participating and acting",
+        "Keep future options and adaptive capacity"
+      ]
+    },
+    "S1": {
+      "title": "Continued existence of humanity and civilization",
+      "body": [
+        "Prevent extinction and unrecoverable collapse",
+        "Resilient critical supply, knowledge backups, rebuilding"
+      ]
+    },
+    "S2": {
+      "title": "Keep Earth habitable in the long run",
+      "body": [
+        "Life-support systems and ecological protection",
+        "Sustained resource supply and environmental adaptation"
+      ]
+    },
+    "S3": {
+      "title": "Shared risk and shared development",
+      "body": [
+        "Operationalize a community of shared future",
+        "Conflict prevention, public goods, shared opportunity"
+      ]
+    },
+    "S4": {
+      "title": "Scientific understanding and safe technological capability",
+      "body": [
+        "Basic research, education and reliable information",
+        "Technology safety, accessible results, capability reserves"
+      ]
+    },
+    "S5": {
+      "title": "Inclusive and sustainable economy",
+      "body": [
+        "Stable supply, decent work, fair distribution",
+        "Efficiency gains, regional balance, fiscal resilience"
+      ]
+    },
+    "S6": {
+      "title": "Cultural diversity and social meaning",
+      "body": [
+        "Language heritage, creative freedom, intergenerational transmission",
+        "Cultural participation, social ties, mutual understanding"
+      ]
+    },
+    "S7": {
+      "title": "Expand long-term habitat and options",
+      "body": [
+        "Off-world life support and independent survival capability",
+        "Research on multiplanetary and interstellar habitation"
+      ]
+    },
+    "O1": {
+      "title": "Diplomacy and international cooperation",
+      "body": [
+        "Reduce conflict and cross-border harm",
+        "Stable cross-border supply and treaty compliance",
+        "Migration integration and shared risk responsibility"
+      ]
+    },
+    "O2": {
+      "title": "Welfare and life-course protection",
+      "body": [
+        "Reduce poverty and homelessness",
+        "Child development and support through job transitions",
+        "Disability support, pensions and long-term care"
+      ]
+    },
+    "O3": {
+      "title": "Economy and sustainable production",
+      "body": [
+        "Decent work, labour safety and efficiency",
+        "Innovation diffusion and regional balance",
+        "Stable supply and resilience to economic shocks"
+      ]
+    },
+    "O4": {
+      "title": "Taxation and public financing",
+      "body": [
+        "Adequate and sustainable service funding",
+        "Fair burden sharing and effective collection",
+        "Externality pricing and fiscal resilience"
+      ]
+    },
+    "O5": {
+      "title": "Public services and human development",
+      "body": [
+        "Basic education, lifelong learning and research",
+        "Basic healthcare, public health and food safety",
+        "Public libraries, arts and cultural services"
+      ]
+    },
+    "O6": {
+      "title": "Safety, fair justice and rights",
+      "body": [
+        "Reduce violence and prevent reoffending",
+        "Fair trials, legal remedy and anti-discrimination",
+        "Privacy protection, limits on power and accountability"
+      ]
+    },
+    "O7": {
+      "title": "Transport, accessibility and logistics",
+      "body": [
+        "Access to healthcare, education and jobs",
+        "Road safety, reliable transit and accessibility",
+        "Logistics resilience, less congestion and pollution"
+      ]
+    },
+    "X1": {
+      "title": "Ecology and climate",
+      "body": [
+        "Clean air, water and healthy soils",
+        "Species, habitats and ecological connectivity",
+        "Reduce irreversible loss and adapt to disasters",
+        "Balance animal welfare with ecological wholes"
+      ]
+    },
+    "X2": {
+      "title": "Food, water and energy security",
+      "body": [
+        "Affordable, reliable basic supply",
+        "Diverse sources, reserves and backups",
+        "Demand efficiency and critical network recovery"
+      ]
+    },
+    "X3": {
+      "title": "Housing and spatial development",
+      "body": [
+        "Affordable housing and residential safety",
+        "Proximity to work and public services",
+        "Less spatial segregation and better urban–rural coordination"
+      ]
+    },
+    "X4": {
+      "title": "Culture and social relations",
+      "body": [
+        "Language heritage, creation and cultural participation",
+        "Intergenerational exchange, community ties and trust",
+        "Reduce isolation and respect cultural differences"
+      ]
+    },
+    "X5": {
+      "title": "Digital and information environment",
+      "body": [
+        "Digital access, reliable information and privacy",
+        "Network resilience and algorithmic accountability",
+        "Safe use and shared technology gains"
+      ]
+    },
+    "X6": {
+      "title": "Governance and public participation",
+      "body": [
+        "Transparency, accountability, anti-corruption and correction",
+        "Administrative capacity and public participation",
+        "Equity across groups and cross-departmental coordination"
+      ]
+    },
+    "X7": {
+      "title": "Long-term civilizational preparedness",
+      "body": [
+        "Disaster recovery, knowledge backups and technology reserves",
+        "Extreme-risk monitoring and life-support research",
+        "Feasibility validation for independent off-world habitation"
+      ]
+    },
+    "A1": {
+      "title": "Institutions, rules and negotiation",
+      "body": [
+        "Rights protection, standards, transparent accountability",
+        "Cross-regional agreements and dispute mechanisms"
+      ]
+    },
+    "A2": {
+      "title": "Budgeting, financing and allocation",
+      "body": [
+        "Taxes, transfers and social security",
+        "Budget mix, maintenance spending and reserves"
+      ]
+    },
+    "A3": {
+      "title": "Engineering, services and delivery",
+      "body": [
+        "Water and transport, housing and healthcare, ecological restoration",
+        "Reliable operation, service access and post-disaster recovery"
+      ]
+    },
+    "A4": {
+      "title": "Research, trials and capacity building",
+      "body": [
+        "Basic research, training, scenario analysis",
+        "Staged validation, safety assessment and exit"
+      ]
+    },
+    "F1": {
+      "title": "Outcomes and basic gaps",
+      "body": [
+        "Health, supply, learning and accessibility",
+        "Track leading indicators and lagging outcomes"
+      ]
+    },
+    "F2": {
+      "title": "Distribution and differences among actors",
+      "body": [
+        "Averages plus the worst-off groups",
+        "Present and future, human and non-human effects"
+      ]
+    },
+    "F3": {
+      "title": "Costs, side effects and irreversibility",
+      "body": [
+        "Resource costs, externalities and opportunity costs",
+        "Rights risks, ecological loss and risk transfer"
+      ]
+    },
+    "F4": {
+      "title": "Evidence, causality and adjustment",
+      "body": [
+        "Test effect size, lags and uncertainty",
+        "Revise models, policies and action priorities"
+      ]
+    },
+    "P0": {
+      "title": "P0 · Urgent floor protection",
+      "body": [
+        "Credible, severe and within a closing window",
+        "Avoid major irreversible loss"
+      ]
+    },
+    "P1": {
+      "title": "P1 · Basic protection and resilience",
+      "body": [
+        "Close basic living and rights gaps",
+        "Maintain critical life-support systems"
+      ]
+    },
+    "P2": {
+      "title": "P2 · Long-term capability and systemic improvement",
+      "body": [
+        "Education and research, institutional correction and maintenance",
+        "Prevent risk and sustain ecology and culture"
+      ]
+    },
+    "P3": {
+      "title": "P3 · Frontier exploration and option reserves",
+      "body": [
+        "Verifiable, adjustable exploration",
+        "Keep future action and migration options"
+      ]
+    },
+    "P4": {
+      "title": "P4 · Highly speculative long-range vision",
+      "body": [
+        "Key facts, paths or actors are undefined",
+        "Conditional concepts such as galactic governance"
+      ]
+    },
+    "PD": {
+      "title": "Priority update mechanism",
+      "body": [
+        "Gaps, windows, scope and distribution",
+        "Intervenability, evidence and external effects"
+      ]
+    },
+    "G": {
+      "title": "Constraints across the whole map",
+      "body": [
+        "Basic rights, intergenerational fairness, accountability",
+        "Avoid severe irreversible harm"
+      ]
+    },
+    "T1": {
+      "title": "Individuals and households",
+      "body": [
+        "Autonomous choice, learning, health and care",
+        "Responsibilities must match capability and available support"
+      ]
+    },
+    "T2": {
+      "title": "Communities and civil society",
+      "body": [
+        "Find unmet needs, mutual aid and referral",
+        "Public space, emergency contact and participation"
+      ]
+    },
+    "T3": {
+      "title": "Schools, hospitals and firms",
+      "body": [
+        "Education and healthcare supply, innovation and jobs",
+        "Organizational safety, fair participation and information duties"
+      ]
+    },
+    "T4": {
+      "title": "Cities, counties and regions",
+      "body": [
+        "Housing and transport, water and local services",
+        "Referral networks, watershed cooperation and regional reserves"
+      ]
+    },
+    "T5": {
+      "title": "The state",
+      "body": [
+        "Basic standards, cross-regional equity and financing",
+        "Critical capability, systemic risk and rights protection"
+      ]
+    },
+    "T6": {
+      "title": "Transnational cooperation and planetary civilization",
+      "body": [
+        "Shared environment, public goods and conflict prevention",
+        "Cross-border risk, development opportunity and global fairness"
+      ]
+    },
+    "T7": {
+      "title": "Solar-system scope",
+      "body": [
+        "Orbital coordination, rescue and resource rules",
+        "Scientific protection and the rights of off-world residents"
+      ]
+    },
+    "T8": {
+      "title": "Interstellar scope",
+      "body": [
+        "Independent habitation, long-latency communication and autonomy",
+        "Agreements, mutual non-harm and knowledge preservation"
+      ]
+    },
+    "T9": {
+      "title": "Galactic coordination scope",
+      "body": [
+        "Possible civilization networks and long-term agreements",
+        "Cross-civilization negotiation and information continuity"
+      ]
+    },
+    "T10": {
+      "title": "Cosmic-scale research scope",
+      "body": [
+        "Understand the universe and physical limits",
+        "Research on the continuity of life and knowledge"
+      ]
+    },
+    "H1": {
+      "title": "Known risks and civilizational recovery",
+      "body": [
+        "Natural disasters, conflict and dangerous-technology risk",
+        "Prevention, absorption and recovery as parallel goals"
+      ]
+    },
+    "H2": {
+      "title": "Solar evolution and Earth habitability",
+      "body": [
+        "Roughly 1 billion years: modelled decline in habitability",
+        "Roughly 5 billion years: the Sun becomes a red giant"
+      ]
+    },
+    "H3": {
+      "title": "Preconditions for multi-site habitation",
+      "body": [
+        "Independent food, industry, energy and knowledge systems",
+        "Multiplanetary spread diversifies Earth risk; interstellar spread diversifies shared risk"
+      ]
+    },
+    "H4": {
+      "title": "Alien civilization scenarios",
+      "body": [
+        "No confirmed alien civilization threat",
+        "Study of evidence, verification and contact rules"
+      ]
+    },
+    "Y1": {
+      "title": "Extend healthspan",
+      "body": [
+        "Extend the years lived with less disease, disability and suffering",
+        "Healthspan and total lifespan are assessed separately"
+      ]
+    },
+    "Y2": {
+      "title": "Safely extend total lifespan",
+      "body": [
+        "Research ways to lower age-related mortality risk",
+        "Assess benefit, safety and quality of life"
+      ]
+    },
+    "Y3": {
+      "title": "Sustain autonomy, care and intergenerational fairness",
+      "body": [
+        "Delay disability and support cognition and social participation",
+        "Equitable access, care capacity and intergenerational opportunity"
+      ]
+    },
+    "Y4": {
+      "title": "Reliable, affordable low-carbon energy",
+      "body": [
+        "Stable supply of electricity and industrial heat",
+        "Balance cost, resource use and ecological impact"
+      ]
+    },
+    "C1": {
+      "title": "Burden of ageing, chronic disease and disability",
+      "body": [
+        "Threatens health, independent living and care capacity",
+        "Pressure varies by population and institutions"
+      ]
+    },
+    "C2": {
+      "title": "Declining climate, ecology and regional habitability",
+      "body": [
+        "Heat, water scarcity, pollution and ecological degradation",
+        "Early warning, adaptation, restoration and safe migration"
+      ]
+    },
+    "C3": {
+      "title": "Supply-chain and critical-infrastructure disruption",
+      "body": [
+        "Food, energy, medical and industrial blockage",
+        "Needs alternative sources, reserves and recovery"
+      ]
+    },
+    "C4": {
+      "title": "Public-health and biological-system risk",
+      "body": [
+        "Disease shocks and loss of control over biological systems",
+        "Protection, treatment, monitoring and traceability"
+      ]
+    },
+    "C5": {
+      "title": "Technology dependence and correlated failure",
+      "body": [
+        "Model, software or network failures spread",
+        "Over-concentration amplifies shared risk"
+      ]
+    },
+    "C6": {
+      "title": "Inequality, job transitions and failed cooperation",
+      "body": [
+        "Technology gains are unevenly distributed and opportunity concentrates",
+        "Affects trust, legitimacy and stable cooperation"
+      ]
+    },
+    "K1": {
+      "title": "Cognition, prediction and scientific discovery",
+      "body": [
+        "Integrate observation, simulation and experimental feedback",
+        "Identify uncertainty and model limits"
+      ]
+    },
+    "K2": {
+      "title": "Physical action and autonomous maintenance",
+      "body": [
+        "Build, operate, repair and recover from failure",
+        "Reduce human exposure in hazardous settings"
+      ]
+    },
+    "K3": {
+      "title": "Regenerative supply and life support",
+      "body": [
+        "Air, water, food and waste handling",
+        "Keep systems stable and reduce resupply"
+      ]
+    },
+    "K4": {
+      "title": "Continuous reliable energy",
+      "body": [
+        "Generation, heat, storage and grid coordination",
+        "Assess energy and material constraints together"
+      ]
+    },
+    "K5": {
+      "title": "Production, repair and resource reuse",
+      "body": [
+        "Local processing, repairable manufacturing and recycling",
+        "Reduce dependence on critical parts and feedstock"
+      ]
+    },
+    "K6": {
+      "title": "Health maintenance and functional recovery",
+      "body": [
+        "Monitoring, prevention, treatment and rehabilitation",
+        "Long-term safety and real improvements in life"
+      ]
+    },
+    "K7": {
+      "title": "Knowledge preservation and civilizational recovery",
+      "body": [
+        "Preserve content, reading methods and practical skills",
+        "Secure the tools and education needed for rebuilding"
+      ]
+    },
+    "K8": {
+      "title": "Trustworthy cooperation and institutional adaptation",
+      "body": [
+        "Clear responsibility, trustworthy information, shared gains",
+        "Sustain autonomy and corrigibility"
+      ]
+    },
+    "TE01": {
+      "title": "AI, world models and scientific intelligence",
+      "body": [
+        "Prediction, design, planning and experiment analysis",
+        "Serves science, industry, ecology and governance"
+      ]
+    },
+    "TE02": {
+      "title": "Embodied intelligence and autonomous robots",
+      "body": [
+        "Perception, dexterous manipulation, multi-robot cooperation",
+        "Construction, inspection, repair and hazardous work"
+      ]
+    },
+    "TE03": {
+      "title": "Brain–computer interfaces and neural assistance",
+      "body": [
+        "Assisted communication, device control and sensory feedback",
+        "Supports rehabilitation and autonomous participation"
+      ]
+    },
+    "TE04": {
+      "title": "Biohybrid robots",
+      "body": [
+        "Living tissue combined with artificial structures and electronics",
+        "Exploring compliant actuation and biological sensing"
+      ]
+    },
+    "TE05": {
+      "title": "Living constructs made of cells",
+      "body": [
+        "Self-organization, movement and cell cooperation",
+        "Exploring targeted repair and microscale manipulation"
+      ]
+    },
+    "TE06": {
+      "title": "Genetic circuits and metabolic engineering",
+      "body": [
+        "Design regulatory relationships and production functions",
+        "Controlled biomanufacturing and sensing"
+      ]
+    },
+    "TE07": {
+      "title": "DNA molecular computing and devices",
+      "body": [
+        "Structural design, recognition and conditional response",
+        "Research on detection and payload delivery"
+      ]
+    },
+    "TE08": {
+      "title": "DNA information storage",
+      "body": [
+        "Encoding, storage, reading and error correction",
+        "Exploring new media for long-term archives"
+      ]
+    },
+    "TE09": {
+      "title": "Ageing measurement and longitudinal health monitoring",
+      "body": [
+        "Multi-omics, physiological function and risk tracking",
+        "Distinguish biomarkers from health outcomes"
+      ]
+    },
+    "TE10": {
+      "title": "Cellular senescence and age-related mechanism interventions",
+      "body": [
+        "Study senescent cells, metabolism and inflammation",
+        "Judge by health, safety and function"
+      ]
+    },
+    "TE11": {
+      "title": "Partial reprogramming and epigenetic state control",
+      "body": [
+        "Explore tissue state and functional restoration",
+        "Study reversibility, specificity and durability"
+      ]
+    },
+    "TE12": {
+      "title": "Regenerative medicine and tissue repair",
+      "body": [
+        "Cells, tissue engineering and repair materials",
+        "Restore structure and function after injury"
+      ]
+    },
+    "TE13": {
+      "title": "Prevention, chronic-care management and smart rehabilitation",
+      "body": [
+        "Disease prevention, evidence-based treatment and functional support",
+        "Reduce avoidable disability and care gaps"
+      ]
+    },
+    "TE14": {
+      "title": "Magnetically confined fusion",
+      "body": [
+        "Plasma confinement, heating and control",
+        "System integration of superconducting or other magnet routes"
+      ]
+    },
+    "TE15": {
+      "title": "Inertial confinement and other fusion routes",
+      "body": [
+        "Drivers, targets and repeated operation",
+        "Explore different plant system designs"
+      ]
+    },
+    "TE16": {
+      "title": "Fusion plant balance-of-plant engineering",
+      "body": [
+        "Environment-resistant materials, heat exhaust and remote maintenance",
+        "Fuel cycle, shielding, control and power conversion"
+      ]
+    },
+    "TE17": {
+      "title": "Existing clean energy, storage and grids",
+      "body": [
+        "Renewables, applicable fission and storage",
+        "Distribution grids, efficiency improvements and multi-energy coordination"
+      ]
+    },
+    "TE18": {
+      "title": "Advanced materials and recycling",
+      "body": [
+        "Environment-resistant, repairable and recyclable materials",
+        "Reduce ageing, corrosion and resource loss"
+      ]
+    },
+    "TE19": {
+      "title": "Autonomous manufacturing and local resource use",
+      "body": [
+        "Prospecting, processing, parts fabrication and repair",
+        "Reduce dependence on external feedstock and resupply"
+      ]
+    },
+    "TE20": {
+      "title": "Regenerative life support and controlled ecology",
+      "body": [
+        "Water, air, food and waste management",
+        "Combine physicochemical and biological processes"
+      ]
+    },
+    "TE21": {
+      "title": "Ecological observation, restoration and adaptation",
+      "body": [
+        "Remote sensing, soil and water restoration, disaster adaptation",
+        "Protect biodiversity and ecological function"
+      ]
+    },
+    "TE22": {
+      "title": "Space transport, shielding and artificial habitats",
+      "body": [
+        "Reaching destination, radiation shielding, habitation and maintenance",
+        "Move toward sustained activity and independent survival"
+      ]
+    },
+    "TE23": {
+      "title": "Trustworthy AI, cyber and biosecurity",
+      "body": [
+        "Validation, isolation, monitoring and traceability",
+        "Reduce correlated failure and support correction"
+      ]
+    },
+    "TE24": {
+      "title": "Knowledge preservation and rebuildable education",
+      "body": [
+        "Multi-medium archives, open standards and skills education",
+        "Preserve reading methods, tools and practical capability"
+      ]
+    },
+    "TE25": {
+      "title": "Agriculture, fermentation and food biomanufacturing",
+      "body": [
+        "Precision agriculture, controlled environments and fermentation",
+        "Diverse food sources and nutrition"
+      ]
+    },
+    "I01": {
+      "title": "Compute, chips and communications",
+      "body": [
+        "Compute chips, edge devices, networks and data centres"
+      ]
+    },
+    "I02": {
+      "title": "Instruments, sensing and testing",
+      "body": [
+        "Imaging, sensors, omics instruments, calibration and metrology"
+      ]
+    },
+    "I03": {
+      "title": "Clinical research and care networks",
+      "body": [
+        "Cohorts, trials, follow-up, rehabilitation and specialists"
+      ]
+    },
+    "I04": {
+      "title": "Biopharma manufacturing and quality systems",
+      "body": [
+        "Controlled production, purification, quality control, delivery and cold chain"
+      ]
+    },
+    "I05": {
+      "title": "DNA read/write and laboratory automation",
+      "body": [
+        "Sequencing, synthesis, automated experiments and data standards"
+      ]
+    },
+    "I06": {
+      "title": "Advanced materials and precision manufacturing",
+      "body": [
+        "Alloys, ceramics, coatings, biomaterials and precision machining"
+      ]
+    },
+    "I07": {
+      "title": "Superconductors, magnets and cryogenics",
+      "body": [
+        "Magnet fabrication, cryogenic systems, testing and maintenance"
+      ]
+    },
+    "I08": {
+      "title": "Lasers, optics and pulsed equipment",
+      "body": [
+        "Drivers, optical components, diagnostics and reliable operation"
+      ]
+    },
+    "I09": {
+      "title": "Vacuum, sealing and power electronics",
+      "body": [
+        "Vacuum pumps, seals, power supply, control and power electronics"
+      ]
+    },
+    "I10": {
+      "title": "Regulated fuel cycles and nuclear engineering services",
+      "body": [
+        "Fuel management, shielding, inspection and maintenance for applicable routes"
+      ]
+    },
+    "I11": {
+      "title": "Thermal engineering, power conversion and grid engineering",
+      "body": [
+        "Heat exchange, thermal management, power conversion and grid connection"
+      ]
+    },
+    "I12": {
+      "title": "Robot components and industrial equipment",
+      "body": [
+        "Actuators, transmissions, machine tools, tooling and repair services"
+      ]
+    },
+    "I13": {
+      "title": "Industrial software, simulation and system integration",
+      "body": [
+        "Control software, digital models, testing and fault diagnosis"
+      ]
+    },
+    "I14": {
+      "title": "Space manufacturing, launch and space communications",
+      "body": [
+        "Launch vehicles, probes, space components and mission operations"
+      ]
+    },
+    "I15": {
+      "title": "Agri-food, water treatment and utilities",
+      "body": [
+        "Farm inputs, nutrition, water supply and drainage, food inspection"
+      ]
+    },
+    "I16": {
+      "title": "Mining, chemicals and resource cycling",
+      "body": [
+        "Basic feedstock, refining, chemicals, recycling and logistics"
+      ]
+    },
+    "I17": {
+      "title": "Construction, infrastructure and emergency services",
+      "body": [
+        "Housing, transport, resilient facilities and post-disaster repair"
+      ]
+    },
+    "I18": {
+      "title": "Education, care and career-transition services",
+      "body": [
+        "Research and engineering talent, nursing, lifelong learning and reskilling"
+      ]
+    },
+    "I19": {
+      "title": "Standards, certification and independent verification",
+      "body": [
+        "Performance, safety, ethics, environmental and outcome verification"
+      ]
+    },
+    "I20": {
+      "title": "Long-term capital, procurement and risk sharing",
+      "body": [
+        "Staged R&D finance, procurement, insurance and project management"
+      ]
+    },
+    "I21": {
+      "title": "Public governance and cross-actor coordination",
+      "body": [
+        "Regulation, public health, shared facilities and public participation"
+      ]
+    },
+    "I22": {
+      "title": "Cultural archives and long-term information services",
+      "body": [
+        "Content preservation, language, open formats and knowledge dissemination"
+      ]
+    },
+    "E01": {
+      "title": "Healthspan assessment and evidence-based management",
+      "body": [
+        "Longitudinal health assessment, function monitoring and service coordination"
+      ]
+    },
+    "E02": {
+      "title": "Ageing-intervention R&D and validation",
+      "body": [
+        "Mechanistic drugs, delivery, clinical research and follow-up"
+      ]
+    },
+    "E03": {
+      "title": "Tissue repair and biomanufacturing platforms",
+      "body": [
+        "Standardized tissue products, quality assessment and repair services"
+      ]
+    },
+    "E04": {
+      "title": "Neural interfaces and rehabilitation services",
+      "body": [
+        "Interface devices, training and maintenance, assisted communication and care"
+      ]
+    },
+    "E05": {
+      "title": "Robot maintenance and autonomous operations",
+      "body": [
+        "Continuous inspection, failure recovery, equipment renewal and maintenance"
+      ]
+    },
+    "E06": {
+      "title": "Automated science and biological design platforms",
+      "body": [
+        "Design–experiment–validation loop services"
+      ]
+    },
+    "E07": {
+      "title": "Programmable biomanufacturing and fermented materials",
+      "body": [
+        "Biomanufactured food ingredients, materials and specific products"
+      ]
+    },
+    "E08": {
+      "title": "Biobots and living-material services",
+      "body": [
+        "Detection, manipulation and repair research in controlled environments"
+      ]
+    },
+    "E09": {
+      "title": "Molecular diagnostics and responsive delivery platforms",
+      "body": [
+        "Molecular recognition, logic response and targeted payload services"
+      ]
+    },
+    "E10": {
+      "title": "Fusion critical components and system validation",
+      "body": [
+        "Magnets, materials, maintenance, testing and engineering integration"
+      ]
+    },
+    "E11": {
+      "title": "Fusion electricity and industrial heat services",
+      "body": [
+        "Potential plant construction, operation, maintenance and heat supply"
+      ]
+    },
+    "E12": {
+      "title": "Water and chemical integration driven by new energy supply",
+      "body": [
+        "Water production, applicable hydrogen and coupling with energy-intensive industry"
+      ]
+    },
+    "E13": {
+      "title": "Distributed manufacturing, remanufacturing and circular services",
+      "body": [
+        "Local processing, repair, parts renewal and material cycling"
+      ]
+    },
+    "E14": {
+      "title": "Regenerative life support and habitat operations",
+      "body": [
+        "Air and water cycling, food, waste and equipment services"
+      ]
+    },
+    "E15": {
+      "title": "Off-world construction and local resource services",
+      "body": [
+        "Prospecting, construction, resource processing and base maintenance"
+      ]
+    },
+    "E16": {
+      "title": "In-orbit servicing and space manufacturing",
+      "body": [
+        "Inspection and repair, assembly, and manufacture of applicable materials or parts"
+      ]
+    },
+    "E17": {
+      "title": "Civilization archives and recovery engineering",
+      "body": [
+        "Multi-medium knowledge, germplasm and rebuild-capability preservation"
+      ]
+    },
+    "E18": {
+      "title": "Validation services for AI, bio and neurotechnology",
+      "body": [
+        "Independent assessment, provenance, liability and risk management"
+      ]
+    },
+    "E19": {
+      "title": "Education, care and institutional services for long-lived societies",
+      "body": [
+        "Multi-stage education and employment, care and benefit adjustment"
+      ]
+    },
+    "E20": {
+      "title": "Ecological restoration and environmental outcome services",
+      "body": [
+        "Monitoring, restoration, adaptation, verification and long-term stewardship"
+      ]
+    },
+    "M1": {
+      "title": "Healthspan and independent living",
+      "body": [
+        "Measurement → validation → clinical → manufacturing → services loop",
+        "Assess total lifespan, healthspan and fairness together"
+      ]
+    },
+    "M2": {
+      "title": "Fusion and reliable energy systems",
+      "body": [
+        "Physics → net electricity → reliable operation → cost",
+        "Component industries can develop first; plant services follow the gates"
+      ]
+    },
+    "M3": {
+      "title": "Recoverable cities and communities",
+      "body": [
+        "Energy, water and food, housing, healthcare and maintenance",
+        "Assess by critical-service outage and recovery time"
+      ]
+    },
+    "M4": {
+      "title": "Trustworthy autonomous science and production",
+      "body": [
+        "AI → experiments → biomanufacturing → real-world feedback",
+        "Judge contribution by reproducibility and reliable operation"
+      ]
+    },
+    "M5": {
+      "title": "Off-world habitation with low resupply dependence",
+      "body": [
+        "Transport, life support, industry and governance together",
+        "Validate real independence and correlated-failure risk"
+      ]
+    },
+    "M6": {
+      "title": "Civilizational recovery and unknown-scenario readiness",
+      "body": [
+        "Multi-site archives, skills and rebuildable production",
+        "Alien scenarios begin with evidence and cooperation"
+      ]
+    }
+  }
+}

@@ -3,6 +3,7 @@
     "nav.home": { en: "Home", zh: "首页" },
     "nav.blog": { en: "Blog", zh: "博客" },
     "nav.publications": { en: "Publications", zh: "论文发表" },
+    "nav.atlas": { en: "Atlas", zh: "文明发展图谱" },
     "nav.others": { en: "Miscellaneous", zh: "其他" },
 
     "home.name": { en: "Shiqi Liu", zh: "刘仕琪" },
